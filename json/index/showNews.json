@@ -1,0 +1,41 @@
+[
+  {
+  "List":[
+    {
+      "imgSrc":"images/index/showNews/1.jpg",
+      "smallImg":"images/index/showNews/01.png",
+      "desc":"【最美圣诞礼物】GOC IN C摇滚熊智能APP控温热水袋",
+      "fun":"安全防爆 智能控温",
+      "show":"￥348",
+      "del":"￥788",
+      "discount":"5.7折",
+      "postage":"包邮"
+    },
+    {
+      "imgSrc":"images/index/showNews/2.jpg",
+      "smallImg":"images/index/showNews/02.png",
+      "desc":"innisfree 悦诗风吟 油菜花蜜润唇膏 平滑角质 3.5克",
+      "fun":"打造美丽动人双唇",
+      "show":"￥55",
+      "del":"￥55"
+    },
+    {
+      "imgSrc":"images/index/showNews/3.jpg",
+      "smallImg":"images/index/showNews/03.png",
+      "desc":"Loacker 莱家 巧克力威化饼干零食礼盒 3种 750克",
+      "fun":"意大利经典威化",
+      "show":"￥169",
+      "del":"￥299",
+      "discount":"5.7折"
+    },
+    {
+      "imgSrc":"images/index/showNews/4.jpg",
+      "smallImg":"images/index/showNews/04.png",
+      "desc":"Hape 森林动物游戏盒绕珠串珠大号百宝箱儿童益智",
+      "fun":"多功能益智宝箱",
+      "show":"￥918",
+      "del":"￥1498",
+      "discount":"6.2折",
+      "postage":"包邮"
+    }]
+}]

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test_template</title>
+    <style>
+        #showDetails{
+            height:800px;
+            width:1200px;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+<div id="showDetails">
+    <script id="show" type="text/html">
+    {{each List as contain i}}
+    <ul>
+        <!--<li>{{contain.name}}</li>-->
+        <li>{{List[i].name}}</li>
+        <li></li>
+    </ul>
+    
+        {{/each}}
+</script>
+</div>
+<script src="../library/jquery-1.11.0.js"></script>
+<script src="../library/template.js"></script>
+<script>
+    $.ajax({
+        url:"http://127.0.0.1/My_project/json/listPage/Hot/testOne.json",
+        type:"GET",
+        success:function (data) {
+            console.log(data[0].List[0]);   //查找到当前的数组
+            var showGoods=template("show",data[0].List[0][0]);
+            $("#showDetails").append(showGoods);
+        }
+    })
+</script>
+</body>
+</html>

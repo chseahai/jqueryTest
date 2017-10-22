@@ -1,0 +1,294 @@
+[
+  {
+    "pid":"iphone1001",
+    "details":[
+      {"imgSrc":[{
+        "smallImg":["phone1.jpg","phone2.jpg","phone3.jpg","phone4.jpg","phone5.jpg","phone6.jpg","phone7.jpg"],
+        "showImg":["phone01.jpg","phone02.jpg","phone03.jpg","phone04.jpg","phone05.jpg","phone06.jpg","phone07.jpg"],
+        "bigImg":["phone001.jpg","phone002.jpg","phone003.jpg","phone004.jpg","phone005.jpg","phone006.jpg","phone007.jpg"]
+      }]},
+      {"details-main":[
+        {"country":[
+          {"c-img":"../images/details/country/Usa.png"},
+          {"from":"美国"},
+          {"name":"苹果"},
+          {"self":"../images/details/ziying.png"}]},
+        {
+          "desc":"Apple 苹果 iPhone 7（A1660）移动联通电信4G手机 国内行货"
+        },
+        {"subTit":"每位顾客仅限购2台，超出部分将关单处理。"},
+        {"full":[
+          {"fullImg":"../images/details/test/nianhuo.png"},
+          {"fullWrite":"最高满188减100"},
+          {"fullIconfont":""}
+        ]},
+        {"m-price":[
+          {"show":"售价"},
+          {"showNow":"¥5199.00"},
+          {"discount":"9.7折"},
+          {"refer":" 参考价  ¥5388.00"}
+        ]},
+        {"activity":[{"show":"活动"},{"reduce":"直降"},{"k-r":"考拉直降"}]},
+        {"dues":[{"show":"税费"},{"post":"无需额外交税"},{"postAdd":"【本商品包税】"}]},
+        {"postage":[{"show":"运费"},{"free":"满88包邮"}]},
+        {"service":[{"show":"服务"},{"hotel":"本商品由 自营 美国一号仓 发货"}]},
+        {"save":[{"show":"内存容量"},"32GB","64GB","128GB","256GB"]},
+        {"choose-color":["黑色","银色","金色","玫瑰金","亮黑色"]}
+      ]}
+    ]
+  },
+  {
+    "pid":"iphone1002",
+    "details":[
+      {"imgSrc":[{
+        "smallImg":["phone1.jpg","phone2.jpg","phone3.jpg","phone4.jpg","phone5.jpg","phone6.jpg","phone7.jpg"],
+        "showImg":["phone01.jpg","phone02.jpg","phone03.jpg","phone04.jpg","phone05.jpg","phone06.jpg","phone07.jpg"],
+        "bigImg":["phone001.jpg","phone002.jpg","phone003.jpg","phone004.jpg","phone005.jpg","phone006.jpg","phone007.jpg"]
+      }]},
+      {"details-main":[
+        {"country":[
+          {"c-img":"../images/details/country/Usa.png"},
+          {"from":"美国"},
+          {"name":"苹果"},
+          {"self":"../images/details/ziying.png"}]},
+        {
+          "desc":"Apple 苹果 iPhone 7（A1660）移动联通电信4G手机 国内行货"
+        },
+        {"subTit":"每位顾客仅限购2台，超出部分将关单处理。"},
+        {"full":[
+          {"fullImg":"../images/details/test/nianhuo.png"},
+          {"fullWrite":"最高满188减100"},
+          {"fullIconfont":""}
+        ]},
+        {"m-price":[
+          {"show":"售价"},
+          {"showNow":"¥5199.00"},
+          {"discount":"9.7折"},
+          {"refer":" 参考价  ¥5388.00"}
+        ]},
+        {"activity":[{"show":"活动"},{"reduce":"直降"},{"k-r":"考拉直降"}]},
+        {"dues":[{"show":"税费"},{"post":"无需额外交税"},{"postAdd":"【本商品包税】"}]},
+        {"postage":[{"show":"运费"},{"free":"满88包邮"}]},
+        {"service":[{"show":"服务"},{"hotel":"本商品由 自营 杭州1号仓 发货"}]},
+        {"save":[{"show":"内存容量"},"32GB","128GB","256GB"]},
+        {"choose-color":["黑色","银色","金色","玫瑰金","亮黑色"]}
+      ]}
+    ]
+  },
+  {
+    "pid":"iphone1003",
+    "details":[
+      {"imgSrc":[{
+        "smallImg":["shell1.jpg","shell2.jpg","shell3.jpg","shell4.jpg","shell5.jpg","shell6.jpg"],
+        "showImg":["shell01.jpg","shell02.jpg","shell03.jpg","shell04.jpg","shell05.jpg","shell06.jpg"],
+        "bigImg":["shell001.jpg","shell002.jpg","shell003.jpg","shell004.jpg","shell005.jpg","shell006.jpg"]
+      }]},
+      {"details-main":[
+        {"country":[
+          {"c-img":"../images/details/country/Italy.png"},
+          {"from":"意大利"},
+          {"name":"CHIARA FERRAGNI 琪亚拉·法拉格尼"},
+          {"self":"../images/details/ziying.png"}]},
+        {
+          "desc":"CHIARA FERRAGNI 琪亚拉·法拉格尼 女士iPhone6 plus手机壳 银色"
+        },
+        {"subTit":"一推出就受全球粉色狂抢的Chiara Ferragni，推出可爱又俏皮的大眼睛手机壳，弯弯的睫毛和炫酷的亮片闪耀双眼，甜美中带有Rock感，简单中透露出个性，让你拿起手机分分钟赚足眼球！货号：CFC1-6PLUS。"},
+        {"full":[
+          {"fullImg":"../images/details/test/nianhuo.png"},
+          {"fullWrite":"最高满188减100"},
+          {"fullIconfont":""}
+        ]},
+        {"m-price":[
+          {"show":"售价"},
+          {"showNow":"¥239.00"},
+          {"discount":"5.6折"},
+          {"refer":" 参考价  ¥430.00"}
+        ]},
+        {"activity":[{"show":"活动"},{"reduce":"直降"},{"k-r":"考拉直降"}]},
+        {"dues":[{"show":"税费"},{"post":"无需额外交税"},{"postAdd":"【本商品包税】"}]},
+        {"postage":[{"show":"运费"},{"free":"满88包邮"}]},
+        {"service":[{"show":"服务"},{"hotel":"本商品由 自营 海南一号仓 发货"}]}
+      ]}
+    ]
+  },
+  {
+    "pid":"iphone1004",
+    "details":[
+      {"imgSrc":[{
+        "smallImg":["s61.jpg","s62.jpg","s63.jpg","s64.jpg","s65.jpg","s66.jpg"],
+        "showImg":["s601.jpg","s602.jpg","s603.jpg","s604.jpg","s605.jpg","s606.jpg"],
+        "bigImg":["s6001.jpg","s6002.jpg","s6003.jpg","s6004.jpg","s6005.jpg","s6006.jpg"]
+      }]},
+      {"details-main":[
+        {"country":[
+          {"c-img":"../images/details/country/Korea.png"},
+          {"from":"韩国"},
+          {"name":"SAMSUNG 三星"},
+          {"self":"../images/details/ziying.png"}]},
+        {
+          "desc":"三星 Galaxy S6 edge（G9250）32G版 铂光金 移动联通电信4G手机"
+        },
+        {"subTit":"一推出就受全球粉色狂抢的Chiara Ferragni，推出可爱又俏皮的大眼睛手机壳，弯弯的睫毛和炫酷的亮片闪耀双眼，甜美中带有Rock感，简单中透露出个性，让你拿起手机分分钟赚足眼球！货号：CFC1-6PLUS。"},
+        {"full":[
+          {"fullImg":"../images/details/test/nianhuo.png"},
+          {"fullWrite":"最高满188减100"},
+          {"fullIconfont":""}
+        ]},
+        {"m-price":[
+          {"show":"售价"},
+          {"showNow":"¥239.00"},
+          {"discount":"5.6折"},
+          {"refer":" 参考价  ¥430.00"}
+        ]},
+        {"activity":[{"show":"活动"},{"reduce":"直降"},{"k-r":"考拉直降"}]},
+        {"dues":[{"show":"税费"},{"post":"无需额外交税"},{"postAdd":"【本商品包税】"}]},
+        {"postage":[{"show":"运费"},{"free":"满88包邮"}]},
+        {"service":[{"show":"服务"},{"hotel":"本商品由 自营 海南一号仓 发货"}]}
+      ]}
+    ]
+  },
+  {
+    "pid":"iphone1005",
+    "details":[
+      {"imgSrc":[{
+        "smallImg":["s71.jpg","s72.jpg","s73.jpg","s74.jpg","s75.jpg","s76.jpg"],
+        "showImg":["s701.jpg","s702.jpg","s703.jpg","s704.jpg","s705.jpg","s706.jpg"],
+        "bigImg":["s7001.jpg","s7002.jpg","s7003.jpg","s7004.jpg","s7005.jpg","s7006.jpg"]
+      }]},
+      {"details-main":[
+        {"country":[
+          {"c-img":"../images/details/country/Korea.png"},
+          {"from":"韩国"},
+          {"name":"SAMSUNG 三星"},
+          {"self":"../images/details/ziying.png"}]},
+        {
+          "desc":"三星 Galaxy S7（G9300） 移动联通电信4G手机"
+        },
+        {"subTit":"一推出就受全球粉色狂抢的Chiara Ferragni，推出可爱又俏皮的大眼睛手机壳，弯弯的睫毛和炫酷的亮片闪耀双眼，甜美中带有Rock感，简单中透露出个性，让你拿起手机分分钟赚足眼球！货号：CFC1-6PLUS。"},
+        {"full":[
+          {"fullImg":"../images/details/test/nianhuo.png"},
+          {"fullWrite":"最高满188减100"},
+          {"fullIconfont":""}
+        ]},
+        {"m-price":[
+          {"show":"售价"},
+          {"showNow":"¥4599.00"},
+          {"discount":"5.6折"},
+          {"refer":" 参考价  ¥5288.00"}
+        ]},
+        {"activity":[{"show":"活动"},{"reduce":"直降"},{"k-r":"考拉直降"}]},
+        {"dues":[{"show":"税费"},{"post":"无需额外交税"},{"postAdd":"【本商品包税】"}]},
+        {"postage":[{"show":"运费"},{"free":"满88包邮"}]},
+        {"service":[{"show":"服务"},{"hotel":"本商品由 自营 海南一号仓 发货"}]}
+      ]}
+    ]
+  },
+  {
+  "pid":"iphone1006",
+  "details":[
+    {"imgSrc":[{
+      "smallImg":["p81.jpg","p82.jpg","p83.jpg","p84.jpg","p85.jpg"],
+      "showImg":["p801.jpg","p802.jpg","p803.jpg","p804.jpg","p805.jpg"],
+      "bigImg":["p8001.jpg","p8002.jpg","p8003.jpg","p8004.jpg","p8005.jpg"]
+    }]},
+    {"details-main":[
+      {"country":[
+        {"c-img":"../images/details/country/China.png"},
+        {"from":"中国"},
+        {"name":"HUAWEI 华为"},
+        {"self":"../images/details/ziying.png"}]},
+      {
+        "desc":"HUAWEI 华为 P8 高配版 64GB 苍穹黑 移动联通4G手机 双卡双待"
+      },
+      {"subTit":"一推出就受全球粉色狂抢的Chiara Ferragni，推出可爱又俏皮的大眼睛手机壳，弯弯的睫毛和炫酷的亮片闪耀双眼，甜美中带有Rock感，简单中透露出个性，让你拿起手机分分钟赚足眼球！货号：CFC1-6PLUS。"},
+      {"full":[
+        {"fullImg":"../images/details/test/nianhuo.png"},
+        {"fullWrite":"最高满188减100"},
+        {"fullIconfont":""}
+      ]},
+      {"m-price":[
+        {"show":"售价"},
+        {"showNow":"¥2499.00"},
+        {"discount":"7.7折"},
+        {"refer":" 参考价  ¥3288.00"}
+      ]},
+      {"activity":[{"show":"活动"},{"reduce":"直降"},{"k-r":"考拉直降"}]},
+      {"dues":[{"show":"税费"},{"post":"无需额外交税"},{"postAdd":"【本商品包税】"}]},
+      {"postage":[{"show":"运费"},{"free":"满88包邮"}]},
+      {"service":[{"show":"服务"},{"hotel":"本商品由 自营 海南一号仓 发货"}]}
+    ]}
+  ]
+},
+  {
+    "pid":"iphone1007",
+    "details":[
+      {"imgSrc":[{
+        "smallImg":["a71.jpg","a72.jpg","a73.jpg","a74.jpg","a75.jpg","a76.jpg"],
+        "showImg":["a701.jpg","a702.jpg","a703.jpg","a704.jpg","a705.jpg","a706.jpg"],
+        "bigImg":["a7001.jpg","a7002.jpg","a7003.jpg","a7004.jpg","a7005.jpg","a7006.jpg"]
+      }]},
+      {"details-main":[
+        {"country":[
+          {"c-img":"../images/details/country/Korea.png"},
+          {"from":"韩国"},
+          {"name":"SAMSUNG 三星"},
+          {"self":"../images/details/ziying.png"}]},
+        {
+          "desc":"三星 Galaxy A7 (SM-A7100) 全网通4G手机 双卡双待 16G"
+        },
+        {"subTit":"一推出就受全球粉色狂抢的Chiara Ferragni，推出可爱又俏皮的大眼睛手机壳，弯弯的睫毛和炫酷的亮片闪耀双眼，甜美中带有Rock感，简单中透露出个性，让你拿起手机分分钟赚足眼球！货号：CFC1-6PLUS。"},
+        {"full":[
+          {"fullImg":"../images/details/test/nianhuo.png"},
+          {"fullWrite":"最高满188减100"},
+          {"fullIconfont":""}
+        ]},
+        {"m-price":[
+          {"show":"售价"},
+          {"showNow":"¥1949.00"},
+          {"discount":"7.3折"},
+          {"refer":" 参考价  ¥2699.00"}
+        ]},
+        {"activity":[{"show":"活动"},{"reduce":"直降"},{"k-r":"考拉直降"}]},
+        {"dues":[{"show":"税费"},{"post":"无需额外交税"},{"postAdd":"【本商品包税】"}]},
+        {"postage":[{"show":"运费"},{"free":"满88包邮"}]},
+        {"service":[{"show":"服务"},{"hotel":"本商品由 自营 海南一号仓 发货"}]}
+      ]}
+    ]
+  },
+  {
+    "pid":"iphone1008",
+    "details":[
+      {"imgSrc":[{
+        "smallImg":["p81.jpg","p82.jpg","p83.jpg","p84.jpg","p85.jpg"],
+        "showImg":["p801.jpg","p802.jpg","p803.jpg","p804.jpg","p805.jpg"],
+        "bigImg":["p8001.jpg","p8002.jpg","p8003.jpg","p8004.jpg","p8005.jpg"]
+      }]},
+      {"details-main":[
+        {"country":[
+          {"c-img":"../images/details/country/China.png"},
+          {"from":"中国"},
+          {"name":"HUAWEI 华为"},
+          {"self":"../images/details/ziying.png"}]},
+        {
+          "desc":"HUAWEI 华为 P8 高配版 64GB 苍穹黑 移动联通4G手机 双卡双待"
+        },
+        {"subTit":"一推出就受全球粉色狂抢的Chiara Ferragni，推出可爱又俏皮的大眼睛手机壳，弯弯的睫毛和炫酷的亮片闪耀双眼，甜美中带有Rock感，简单中透露出个性，让你拿起手机分分钟赚足眼球！货号：CFC1-6PLUS。"},
+        {"full":[
+          {"fullImg":"../images/details/test/nianhuo.png"},
+          {"fullWrite":"最高满188减100"},
+          {"fullIconfont":""}
+        ]},
+        {"m-price":[
+          {"show":"售价"},
+          {"showNow":"¥2499.00"},
+          {"discount":"7.7折"},
+          {"refer":" 参考价  ¥3288.00"}
+        ]},
+        {"activity":[{"show":"活动"},{"reduce":"直降"},{"k-r":"考拉直降"}]},
+        {"dues":[{"show":"税费"},{"post":"无需额外交税"},{"postAdd":"【本商品包税】"}]},
+        {"postage":[{"show":"运费"},{"free":"满88包邮"}]},
+        {"service":[{"show":"服务"},{"hotel":"本商品由 自营 海南一号仓 发货"}]}
+      ]}
+    ]
+  }
+]

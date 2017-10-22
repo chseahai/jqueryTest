@@ -1,0 +1,224 @@
+[
+  {"List":[
+    {
+      "BigImgSrc":"../images/listPage/Hot/life/life1.jpg","smallImgSrc":"../images/listPage/Hot/life/life01.jpg",
+      "name":"dyson 戴森",
+      "desc":"五叶风扇低值八折",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/life/life2.jpg","smallImgSrc":"../images/listPage/Hot/life/life02.jpg",
+      "name":"iRobot",
+      "desc":"智能擦地机低至1999元",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/life/life3.jpg","smallImgSrc":"../images/listPage/Hot/life/life03.jpg",
+      "name":"SAMSUNG 三星",
+      "desc":"空气净化器低至799元",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/life/life4.jpg","smallImgSrc":"../images/listPage/Hot/life/life04.jpg",
+      "name":"ECOVACS  科沃斯",
+      "desc":"扫地机器人低至7折",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/life/life5.jpg","smallImgSrc":"../images/listPage/Hot/life/life05.jpg",
+      "name":"PHILIPS 飞利浦",
+      "desc":"塔扇低至288元",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/life/life6.jpg","smallImgSrc":"../images/listPage/Hot/life/life06.jpg",
+      "name":"SHARP 夏普",
+      "desc":"空气循环扇低至249元",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/life/life7.jpg","smallImgSrc":"../images/listPage/Hot/life/life07.jpg",
+      "name":"DAEWOO 大宇",
+      "desc":"壁挂式洗衣机8折起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/life/life8.jpg","smallImgSrc":"../images/listPage/Hot/life/life08.jpg",
+      "name":"cado",
+      "desc":"家用加湿器1999元",
+      "goBrand":"进入品牌"
+    }
+  ]},
+  {"List":[
+    {
+      "BigImgSrc":"../images/listPage/Hot/kitchen/kitchen1.jpg","smallImgSrc":"../images/listPage/Hot/kitchen/kitchen01.jpg",
+      "name":"Hurom 惠人",
+      "desc":"原汁机低至1599元",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/kitchen/kitchen2.jpg","smallImgSrc":"../images/listPage/Hot/kitchen/kitchen02.jpg",
+      "name":"CUCKOO 福库",
+      "desc":"电饭煲8折起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/kitchen/kitchen3.jpg","smallImgSrc":"../images/listPage/Hot/kitchen/kitchen03.jpg",
+      "name":"Hamilton Beach 汉美驰",
+      "desc":"小家电6折起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/kitchen/kitchen4.jpg","smallImgSrc":"../images/listPage/Hot/kitchen/kitchen04.jpg",
+      "name":"Joyoung 九阳",
+      "desc":"热销豆浆机299元起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/kitchen/kitchen5.jpg","smallImgSrc":"../images/listPage/Hot/kitchen/kitchen05.jpg",
+      "name":"TOSHIBA 东芝",
+      "desc":"电饭煲3折起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/kitchen/kitchen6.jpg","smallImgSrc":"../images/listPage/Hot/kitchen/kitchen06.jpg",
+      "name":"TIGER 虎牌",
+      "desc":"电饭煲低至5折",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/kitchen/kitchen7.jpg","smallImgSrc":"../images/listPage/Hot/kitchen/kitchen07.jpg",
+      "name":"NUC 恩优希",
+      "desc":"原汁机8折起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/kitchen/kitchen8.jpg","smallImgSrc":"../images/listPage/Hot/kitchen/kitchen08.jpg",
+      "name":"DeLonghi 德龙",
+      "desc":"复古面包机低至590元",
+      "goBrand":"进入品牌"
+    }
+  ]},
+  {"List":[
+    {
+      "BigImgSrc":"../images/listPage/Hot/phone/phone1.jpg","smallImgSrc":"../images/listPage/Hot/phone/phone01.jpg",
+      "name":"Apple 苹果",
+      "desc":" iPhone低至9折",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/phone/phone2.jpg","smallImgSrc":"../images/listPage/Hot/phone/phone02.jpg",
+      "name":"SAMSUNG 三星",
+      "desc":"Galaxy S7 edge买1送2",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/phone/phone3.jpg","smallImgSrc":"../images/listPage/Hot/phone/phone03.jpg",
+      "name":"Canon 佳能",
+      "desc":"相机低至6折",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/phone/phone4.jpg","smallImgSrc":"../images/listPage/Hot/phone/phone04.jpg",
+      "name":"beats by dr. dre",
+      "desc":"入耳式耳机低至529元",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/phone/phone5.jpg","smallImgSrc":"../images/listPage/Hot/phone/phone05.jpg",
+      "name":"JBL",
+      "desc":"迷你音响229元起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/phone/phone6.jpg","smallImgSrc":"../images/listPage/Hot/phone/phone06.jpg",
+      "name":"SENNHEISER 森海塞尔",
+      "desc":"入耳式耳机低至5折",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/phone/phone7.jpg","smallImgSrc":"../images/listPage/Hot/phone/phone07.jpg",
+      "name":"HUAWEI 华为",
+      "desc":"华为手机买1000-100",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/phone/phone8.jpg","smallImgSrc":"../images/listPage/Hot/phone/phone08.jpg",
+      "name":"MEIZU 魅族",
+      "desc":"智能手机9折起",
+      "goBrand":"进入品牌"
+    }
+  ]},
+  {"List":[
+    {
+      "BigImgSrc":"../images/listPage/Hot/beauty/beauty1.jpg","smallImgSrc":"../images/listPage/Hot/beauty/beauty01.jpg",
+      "name":"PHILIPS 飞利浦",
+      "desc":"剃须刀5折起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/beauty/beauty2.jpg","smallImgSrc":"../images/listPage/Hot/beauty/beauty02.jpg",
+      "name":"Panasonic 松下",
+      "desc":"脱毛器199元起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/beauty/beauty3.jpg","smallImgSrc":"../images/listPage/Hot/beauty/beauty03.jpg",
+      "name":"BRAUN 博朗",
+      "desc":"离子造型风筒299元起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/beauty/beauty4.jpg","smallImgSrc":"../images/listPage/Hot/beauty/beauty04.jpg",
+      "name":"TESCOM",
+      "desc":"吹风机7折起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/beauty/beauty5.jpg","smallImgSrc":"../images/listPage/Hot/beauty/beauty05.jpg",
+      "name":"Oral-B 欧乐-B",
+      "desc":"电动牙刷4折起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/beauty/beauty6.jpg","smallImgSrc":"../images/listPage/Hot/beauty/beauty06.jpg",
+      "name":"SIXPAD 希柯斯帕德",
+      "desc":"腹部健身仪8折起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/beauty/beauty7.jpg","smallImgSrc":"../images/listPage/Hot/beauty/beauty07.jpg",
+      "name":"FOREO 斐珞尔",
+      "desc":"洗脸仪低至5折",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/beauty/beauty8.jpg","smallImgSrc":"../images/listPage/Hot/beauty/beauty08.jpg",
+      "name":"OMRON 欧姆龙",
+      "desc":"臂式血压测量仪低至609元",
+      "goBrand":"进入品牌"
+    }
+  ]},
+  {"List":[
+    {
+      "BigImgSrc":"../images/listPage/Hot/office/office1.jpg","smallImgSrc":"../images/listPage/Hot/office/office01.jpg",
+      "name":"LAMY 凌美",
+      "desc":"狩猎者系列钢笔6折起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/office/office2.jpg","smallImgSrc":"../images/listPage/Hot/office/office02.jpg",
+      "name":"amazon kindle",
+      "desc":"电子书499元起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/office/office3.jpg","smallImgSrc":"../images/listPage/Hot/office/office03.jpg",
+      "name":"PARKER 派克",
+      "desc":" IM纯黑夹墨水笔+墨水礼盒低至269元",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/office/office4.jpg","smallImgSrc":"../images/listPage/Hot/office/office04.jpg",
+      "name":"PILOT 百乐",
+      "desc":"6件装可擦水笔89元",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/office/office5.jpg","smallImgSrc":"../images/listPage/Hot/office/office05.jpg",
+      "name":"picasso 毕加索",
+      "desc":"宝珠笔低至5折",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/office/office6.jpg","smallImgSrc":"../images/listPage/Hot/office/office06.jpg",
+      "name":"Pelikan 百利金",
+      "desc":"钢笔3折起",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/office/office7.jpg","smallImgSrc":"../images/listPage/Hot/office/office07.jpg",
+      "name":"TIMEBOX",
+      "desc":"笔记本低至8折",
+      "goBrand":"进入品牌"
+    },
+    {"BigImgSrc":"../images/listPage/Hot/office/office8.jpg","smallImgSrc":"../images/listPage/Hot/office/office08.jpg",
+      "name":"H3C 华三",
+      "desc":"无线路由器低至119元",
+      "goBrand":"进入品牌"
+    }
+  ]},
+  {"List":[
+    {"BigImgSrc":"../images/listPage/Hot/recharge/recharge1.jpg","smallImgSrc":"../images/listPage/Hot/recharge/recharge01.jpg",
+      "name":"cado",
+      "desc":"家用加湿器1999元",
+      "goBrand":"进入品牌"
+    }
+  ]}
+]

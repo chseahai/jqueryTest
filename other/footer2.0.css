@@ -1,0 +1,230 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,dt,dd,fieldset,p,span,strong,ol,label,form,img,em{
+    margin:0;
+    padding: 0;
+}
+body,html{
+    width:100%;
+    height:100%;
+}
+a{
+    font-size:12px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 176017 */
+    src: url('//at.alicdn.com/t/font_fxcgpzxvsi7ctyb9.eot');
+    src: url('//at.alicdn.com/t/font_fxcgpzxvsi7ctyb9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_fxcgpzxvsi7ctyb9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_fxcgpzxvsi7ctyb9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_fxcgpzxvsi7ctyb9.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#footer{
+    background: #fff;
+    border-top: 1px solid #eaeaea;
+}
+.footer-promise{
+    width:1088px;
+    height:130px;
+    margin:0 auto;
+}
+.footer-promise-contain .need{
+    float:left;
+    padding: 40px 0;
+    width: 272px;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+.need .iconfont{
+    width: 44px;
+    height: 44px;
+    font-size: 40px;
+    color:#000;
+}
+.need strong{
+    position: absolute;
+    top: 42px;
+    left: 57px;
+    font-size: 20px;
+}
+.need span{
+    display: block;
+    font-size: 12px;
+    color: #666;
+    float: left;
+    line-height: 30px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 300px;
+    text-align: left;
+}
+.footer-contain li{
+    float: left;
+    width: 110px;
+    padding: 10px 0 0 25px;
+    height: 128px;
+    border-left: 1px solid #eaeaea;
+}
+.footer-contain .first{
+    width: 194px;
+    padding-right: 40px;
+    padding-left: 30px;
+    border-left: none;
+}
+.first .notice{
+    float:left;
+}
+.footer-contain .first .logo{
+    display: block;
+    width: 220px;
+    height: 42px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    outline: none;
+    cursor: pointer;
+    z-index: 9;
+}
+.footer-contain .first .T-logo em{
+    float: left;
+    margin-left: 10px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url(../images/footer/icon1.png) no-repeat -752px -109px;
+}
+.footer-contain .first .T-logo {
+    position: relative;
+    float:left;
+}
+.footer-contain .first .T-logo2 {
+    position: relative;
+    float:left;
+}
+.footer-contain .first .T-logo3 {
+    position: relative;
+    float:left;
+}
+.footer-contain .first .T-logo span{
+    position: absolute;
+    top: 40px;
+    left: -29px;
+    display: none;
+}
+.footer-contain .first .T-logo2 em{
+    float: left;
+    margin-left: 10px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url(../images/footer/icon1.png) no-repeat -796px -109px;
+}
+.footer-contain .first .T-logo2 {
+    position: relative;
+}
+.footer-contain .first .T-logo2 span{
+    position: absolute;
+    top: 40px;
+    left: -18px;
+    display: none;
+}
+.footer-contain .first .T-logo3 em{
+    float: left;
+    margin-left: 10px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url(../images/footer/icon1.png) no-repeat -840px -109px;
+}
+.footer-contain .first .T-logo3 {
+    position: relative;
+}
+.footer-contain .first .T-logo3 span{
+    position: absolute;
+    top: 40px;
+    left: -22px;
+    display: none;
+}
+.footer-contain .first span img{
+    border:10px #fff solid;
+}
+.footer-contain{
+    height: 260px;
+    width: 1088px;
+    margin: 0 auto;
+}
+.footer-about{
+    height:124px;
+    width:100%;
+    background: #333;
+}
+.footer-contain li dt{
+    margin: -4px 0 10px;
+}
+.footer-contain li dd{
+    line-height: 24px;
+}
+.footer-contain li dd a{
+    color:#666;
+}
+.footer-contain li dd a:hover{
+    text-decoration: underline;
+}
+.scan{
+    color: #666;
+    display: block;
+    font-size: 12px;
+    width: 100px;
+    text-align: center;
+}
+/*--------------footer-about--------*/
+.footer-about{
+    color: #c2c2c2;
+}
+.footer-about a{
+    color: #c2c2c2;
+}
+.footer-about a:hover{
+    text-decoration: underline;
+}
+.footer-about .footer-top{
+    position: relative;
+    background: #333;
+    line-height: 26px;
+    text-align: center;
+}
+.footer-about span{
+    margin-left: 20px;
+    color: #c2c2c2;
+    font-size: 12px;
+}
+.footer-middle{
+    position: relative;
+    background: #333;
+    line-height: 26px;
+    text-align: center;
+}
+.footer-bottom{
+    text-align: center;
+}
+.b7{
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+.b9{
+    height: 30px;
+    margin: 5px 0 0 10px;
+}

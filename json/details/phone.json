@@ -1,0 +1,114 @@
+[
+  {
+    "pid":"iphone1001",
+    "details":[
+      {"imgSrc":[{
+        "smallImg":["phone1.jpg","phone2.jpg","phone3.jpg","phone4.jpg","phone5.jpg","phone6.jpg","phone7.jpg"],
+        "showImg":["phone01.jpg","phone02.jpg","phone03.jpg","phone04.jpg","phone05.jpg","phone06.jpg","phone07.jpg"],
+        "bigImg":["phone001.jpg","phone002.jpg","phone003.jpg","phone004.jpg","phone005.jpg","phone006.jpg","phone007.jpg"]
+      }]},
+      {"details-main":[
+        {"country":[
+          {"c-img":"../images/details/country/Usa.png"},
+          {"from":"美国"},
+          {"name":"苹果"},
+          {"self":"../images/details/ziying.png"}]},
+        {
+          "desc":"Apple 苹果 iPhone 7（A1660）移动联通电信4G手机 国内行货"
+        },
+        {"subTit":"每位顾客仅限购2台，超出部分将关单处理。"},
+        {"full":[
+          {"fullImg":"../images/details/test/nianhuo.png"},
+          {"fullWrite":"最高满188减100"},
+          {"fullIconfont":""}
+        ]},
+        {"m-price":[
+          {"show":"售价"},
+          {"showNow":"¥5199.00"},
+          {"discount":"9.7折"},
+          {"refer":" 参考价  ¥5388.00"}
+        ]},
+        {"activity":[{"show":"活动"},{"reduce":"直降"},{"k-r":"考拉直降"}]},
+        {"dues":[{"show":"税费"},{"post":"无需额外交税"},{"postAdd":"【本商品包税】"}]},
+        {"postage":[{"show":"运费"},{"free":"满88包邮"}]},
+        {"service":[{"show":"服务"},{"hotel":"本商品由 自营 美国一号仓 发货"}]},
+        {"save":[{"show":"内存容量"},"32GB","64GB","128GB","256GB"]},
+        {"choose-color":["黑色","银色","金色","玫瑰金","亮黑色"]}
+      ]}
+    ]
+  },
+  {
+    "pid":"iphone1002",
+    "details":[
+      {"imgSrc":[{
+        "smallImg":["phone1.jpg","phone2.jpg","phone3.jpg","phone4.jpg","phone5.jpg","phone6.jpg","phone7.jpg"],
+        "showImg":["phone01.jpg","phone02.jpg","phone03.jpg","phone04.jpg","phone05.jpg","phone06.jpg","phone07.jpg"],
+        "bigImg":["phone001.jpg","phone002.jpg","phone003.jpg","phone004.jpg","phone005.jpg","phone006.jpg","phone007.jpg"]
+      }]},
+      {"details-main":[
+        {"country":[
+          {"c-img":"../images/details/country/Usa.png"},
+          {"from":"美国"},
+          {"name":"苹果"},
+          {"self":"../images/details/ziying.png"}]},
+        {
+          "desc":"Apple 苹果 iPhone 7（A1660）移动联通电信4G手机 国内行货"
+        },
+        {"subTit":"每位顾客仅限购2台，超出部分将关单处理。"},
+        {"full":[
+          {"fullImg":"../images/details/test/nianhuo.png"},
+          {"fullWrite":"最高满188减100"},
+          {"fullIconfont":""}
+        ]},
+        {"m-price":[
+          {"show":"售价"},
+          {"showNow":"¥5199.00"},
+          {"discount":"9.7折"},
+          {"refer":" 参考价  ¥5388.00"}
+        ]},
+        {"activity":[{"show":"活动"},{"reduce":"直降"},{"k-r":"考拉直降"}]},
+        {"dues":[{"show":"税费"},{"post":"无需额外交税"},{"postAdd":"【本商品包税】"}]},
+        {"postage":[{"show":"运费"},{"free":"满88包邮"}]},
+        {"service":[{"show":"服务"},{"hotel":"本商品由 自营 杭州1号仓 发货"}]},
+        {"save":[{"show":"内存容量"},"32GB","128GB","256GB"]},
+        {"choose-color":["黑色","银色","金色","玫瑰金","亮黑色"]}
+      ]}
+    ]
+  },
+  {
+    "pid":"iphone1003",
+    "details":[
+      {"imgSrc":[{
+        "smallImg":["shell1.jpg","shell2.jpg","shell3.jpg","shell4.jpg","shell5.jpg","shell6.jpg"],
+        "showImg":["shell01.jpg","shell02.jpg","shell03.jpg","shell04.jpg","shell05.jpg","shell06.jpg"],
+        "bigImg":["shell001.jpg","shell002.jpg","shell003.jpg","shell004.jpg","shell005.jpg","shell006.jpg"]
+      }]},
+      {"details-main":[
+        {"country":[
+          {"c-img":"../images/details/country/Italy.png"},
+          {"from":"意大利"},
+          {"name":"CHIARA FERRAGNI 琪亚拉·法拉格尼"},
+          {"self":"../images/details/ziying.png"}]},
+        {
+          "desc":"CHIARA FERRAGNI 琪亚拉·法拉格尼 女士iPhone6 plus手机壳 银色"
+        },
+        {"subTit":"一推出就受全球粉色狂抢的Chiara Ferragni，推出可爱又俏皮的大眼睛手机壳，弯弯的睫毛和炫酷的亮片闪耀双眼，甜美中带有Rock感，简单中透露出个性，让你拿起手机分分钟赚足眼球！货号：CFC1-6PLUS。"},
+        {"full":[
+          {"fullImg":"../images/details/test/nianhuo.png"},
+          {"fullWrite":"最高满188减100"},
+          {"fullIconfont":""}
+        ]},
+        {"m-price":[
+          {"show":"售价"},
+          {"showNow":"¥239.00"},
+          {"discount":"5.6折"},
+          {"refer":" 参考价  ¥430.00"}
+        ]},
+        {"activity":[{"show":"活动"},{"reduce":"直降"},{"k-r":"考拉直降"}]},
+        {"dues":[{"show":"税费"},{"post":"无需额外交税"},{"postAdd":"【本商品包税】"}]},
+        {"postage":[{"show":"运费"},{"free":"满88包邮"}]},
+        {"service":[{"show":"服务"},{"hotel":"本商品由 自营 海南一号仓 发货"}]}
+      ]}
+    ]
+  }
+]

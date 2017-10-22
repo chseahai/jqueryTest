@@ -1,0 +1,351 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,dt,dd,fieldset,p,span,strong,ol,label,form,img,em{
+    margin:0;
+    padding: 0;
+}
+body,html{
+    width:100%;
+    height:100%;
+}
+a{
+    font-size:12px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 176017 */
+    src: url('//at.alicdn.com/t/font_b4356tvtik162yb9.eot');
+    src: url('//at.alicdn.com/t/font_b4356tvtik162yb9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_b4356tvtik162yb9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_b4356tvtik162yb9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_b4356tvtik162yb9.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#login{
+    width:100%;
+    margin:0 auto;
+}
+.yearTop{
+    position: relative;
+    zoom: 1;
+    width: 100%;
+    height:100px;
+    background: #D22147;
+    overflow: hidden;
+    margin:0 auto;
+}
+.yearTop .pic{
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+.pic img{
+    position: relative;
+    left: -50%;
+    top: 0;
+}
+
+.headerWrap{
+    position: relative;
+    height: 100px;
+    z-index: 103;
+    width:100%;
+    background: #fff;
+}
+.headerWrap .header{
+    width:1090px;
+    margin:0 auto;
+    position: relative;
+
+}
+.headerWrap .header .logo{
+    position: absolute;
+    left: 0;
+    top: 29px;
+    width: 220px;
+    height: 42px;
+    line-height: 45px;
+    outline: none;
+    cursor: pointer;
+    z-index: 9;
+    display: block;
+}
+.headerWrap .header .pro{
+    float:right;
+    display: block;
+}
+
+.main{
+    background: #F8F8F8 url("../images/login/year.jpg") no-repeat center top;
+    position: relative;
+    width: 100%;
+    height: 520px;
+    margin:0 auto;
+}
+.main .run{
+    height: 400px;
+    width: 400px;
+    display: block;
+    /*background: #fff;*/
+    /*opacity: 0.2;*/
+    position: absolute;
+    top: 67px;
+    left: 252px;
+}
+.main .login-body{
+    width: 500px;
+    height: 360px;
+    position: absolute;
+    z-index: 101;
+    background: #fff;
+    top: 80px;
+    right: 130px;
+    float:left;
+}
+
+.login-body .lo-left-main{
+    float:left;
+    width:350px;
+    height:360px;
+}
+.login-body .lo-left-main .title{
+    height: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #333;
+    padding: 27px 40px 10px;
+}
+
+.main .lo-right-app{
+    float: left;
+    height: 360px;
+    width: 148px;
+    border-left: 1px solid #ddd;
+}
+.main .lo-right-app a img{
+    width:100%;
+    height:100%;
+    border:none;
+}
+.lo-c-main{
+    width: 270px;
+    height:220px;
+    padding: 10px 40px 15px;
+    border-bottom: 1px solid #ddd;
+}
+.lo-c-main .u-name{
+    width:270px;
+    /*height:30px;*/
+    background: yellow;
+    margin-bottom: 20px;
+    position: relative;
+}
+.lo-c-main .u-name .u-n{
+    width:100%;
+    height:30px;
+    text-indent: 40px;
+    /*outline: none;*/
+}
+.clear{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    top: 1px;
+    font-size: 20px;
+    height: 34px;
+    line-height: 34px;
+    width: 30px;
+    background: #fff;
+    text-align: center;
+}
+.lo-c-main .u-name .font{
+    position: absolute;
+    left: 1px;
+    width: 30px;
+    line-height: 24px;
+    height: 24px;
+    font-size: 20px;
+    text-align: center;
+    background: #fff;
+    top: 8px;
+    border-right: 1px solid #ddd;
+}
+.lo-c-main .u-password{
+    width:270px;
+    height:30px;
+    background: yellow;
+    position: relative;
+    margin-bottom: 20px;
+}
+.lo-c-main .u-password .u-n{
+    width:100%;
+    height:30px;
+    text-indent: 40px;
+    /*outline: none;*/
+}
+.lo-c-main .u-password .font{
+    position: absolute;
+    left: 1px;
+    width: 30px;
+    line-height: 24px;
+    height: 24px;
+    font-size: 20px;
+    text-align: center;
+    background: #fff;
+    top: 8px;
+    border-right: 1px solid #ddd;
+    color:#ddd;
+}
+
+.un-login{
+    width:270px;
+    height:30px;
+    position: relative;
+}
+.un-login .c-box{
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    cursor: pointer;
+    float:left;
+}
+.un-login .ck{
+    display: block;
+    float: left;
+    height: 16px;
+    padding-left: 8px;
+    font-size: 12px;
+    color: #999;
+    line-height: 17px;
+    cursor: pointer;
+}
+.un-login .un-p{
+    display: block;
+    position: absolute;
+    right:0;
+    height: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #999;
+    font-size: 12px;
+    line-height: 16px;
+}
+.login-box{
+    margin-top: 20px;
+}
+.login-box a{
+    display: block;
+    /* height: 40px; */
+    padding: 10px;
+    text-align: center;
+    width: 252px;
+    color: #fff;
+    /* font-size: 37px; */
+    font-size: 22px;
+    margin: 0 auto;
+    background: #F5345E;
+}
+.formList{
+    width: 270px;
+    padding: 0 40px 26px;
+}
+.formList em{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+}
+.formList a{
+    color: #51B8F1;
+}
+
+.other{
+    width: 90%;
+    height: 40px;
+    padding: 13px 0 0 30px;
+}
+.other li{
+    float: left;
+    width: 43px;
+    line-height: 22px;
+    height: 22px;
+    overflow: hidden;
+    text-align: center;
+    border-right:1px solid #ddd;
+}
+.other .text{
+    width: 127px;
+    float: left;
+    line-height: 22px;
+    height: 22px;
+    border:none;
+    text-align: center;
+    font-size: 12px;
+}
+.wx .iconfont{
+    color: #00b200;
+    font-size: 23px;
+}
+.wb .iconfont{
+    color: #d53326;
+    font-size: 16px;
+}
+.qq .iconfont{
+    color: #3e9ce0;
+    font-size: 20px;
+}
+.zfb .iconfont{
+    color: #00a1e9;
+    font-size: 16px;
+}
+
+
+
+/*--------------footer-about--------*/
+.footer-about{
+    color: #999;
+    background: #fff;
+}
+.footer-about a{
+    color: #666;
+}
+.footer-about a:hover{
+    color:#ddd;
+}
+.footer-about .footer-top{
+    position: relative;
+    line-height: 26px;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer-about span{
+    margin-left: 20px;
+    font-size: 12px;
+}
+.footer-middle{
+    position: relative;
+    line-height: 26px;
+    text-align: center;
+}
+.footer-bottom{
+    text-align: center;
+}
+.b7{
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+.b9{
+    height: 30px;
+    margin: 5px 0 0 10px;
+}

@@ -1,0 +1,290 @@
+[
+  {"tabLiTitle":"母婴儿童",
+    "targetSrc":"http://www.kaola.com/activity/detail/11990.shtml?zn=top&zp=category-1",
+    "imgSrc":"http://127.0.0.1/My_project/images/index/topTabBox/iqkplg1m99_40_40.png",
+    "contain":[
+      {"name":"奶粉",
+        "details":["爱他美","牛栏","Hero Baby","喜宝","贝拉米","可瑞康","美林","a2","惠氏","泓乐","雅培","美赞臣","贝尔","Pre段","1段","2段","3段","5段(2+)","4段(1+)","6段"]
+      },
+      {"name":"纸尿裤/拉拉裤",
+        "details":["日本花王","日本尤妮佳","大王","好奇","妈咪宝贝","帮宝适","丹麦班博","瑞典丽贝乐","美国科克兰","宝松怡","NB号","S号","M号","L号","XL号","XXL号"]
+      },
+      {"name":"营养辅食",
+        "details":["辅食泥","米粉米糊","泡芙","溶溶豆","营养品","饼干","肉松面仔","调味品","其他辅食","其他零食"]
+      },
+      {"name":"宝宝用品",
+        "details":["洗漱护肤","护理","喂养","出行","清洁消毒","文具图书","积木","益智玩具","其他玩具","宝宝家具","小家电"]
+      },
+      {"name":"童鞋童装",
+        "details":["童装","儿童配饰","童鞋"]
+      },
+      {"name":"孕妈必备" ,
+        "details":["营养","洗护","待产新生","穿戴","塑身"]
+      }
+    ],
+    "imgList":[
+      {"smallImg":["101.jpg","102.jpg","103.jpg","104.jpg","105.jpg","106.jpg","107.jpg","108.jpg","109.jpg"],"bigImg":"113.jpg"}
+    ]
+
+  },
+  {"tabLiTitle":"彩妆美容",
+    "targetSrc":"http://www.kaola.com/activity/detail/3219.shtml?zn=top&zp=category-2",
+    "imgSrc":"http://127.0.0.1/My_project/images/index/topTabBox/iqkpnez751_40_40.png",
+    "contain":[
+      {"name":"护肤",
+        "details":["洁面","卸妆","爽肤水","面霜","眼部护理","精华","乳液/凝胶","手/足护理","身体护理","唇部护理","护肤套装","男士面膜","精油芳疗","面部护肤"]
+      },
+      {"name":"面膜",
+        "details":["可莱丝","森田药妆","Montagne jeunesse","丽得姿","SNP","Elizavecca","我的心机","自然晨露","THE BODY SHOP","BEYOND","其他面膜"]
+      },
+      {"name":"防晒修复",
+        "details":["水宝宝","露得清","香蕉船","高丝","曼秀雷敦","碧柔","高丽雅娜","Ego","KISS ME","其他防晒"]
+      },
+      {"name":"彩妆",
+        "details":["BB霜/CC霜","唇膏/唇彩","隔离/妆前","粉底","粉饼/散粉","美甲","眼线","眉笔","睫毛膏","眼影","腮红","遮瑕","高光/修颜","香水","化妆工具","彩妆工具"]
+      },
+      {"name":"香水/香氛",
+        "details":["女士香水","男士香水","香水套装"]
+      }
+    ],
+    "imgList":[
+      {"smallImg":["201.jpg","202.jpg","203.jpg","204.jpg","205.jpg","206.jpg","207.jpg","208.jpg","209.jpg"], "bigImg":"210.jpg"}
+    ]
+  },
+  {"tabLiTitle":"服饰鞋包",
+    "targetSrc":"http://www.kaola.com/activity/detail/11856.shtml?zn=top&zp=category-3",
+    "imgSrc":"http://127.0.0.1/My_project/images/index/topTabBox/iqkpo5f994_40_40.png",
+    "contain":[
+
+      {"name":"手表配饰",
+        "details":["墨镜","眼镜","腰带","项链","大牌手表","流行饰品","围巾/丝巾","Zippo 打火机","Ray.Ban雷朋","GENTLE MONSTER","KAREN WALKER","军刀","其他配饰"]
+      },
+      {"name":"精选大牌",
+        "details":["MICHAEL KORS","COACH蔻驰","SWAROVSKI","FURLA芙拉","Kipling凯浦林","Salvatore Ferragamo","LONGCHAMP珑骧","BOTTEGA VENETA","kate Spade","Rebecca Minkoff","土拔鼠"]
+      },
+      {"name":"男士箱包",
+        "details":["斜挎包","手拿包","双肩包","商务包","钱包/卡包","网易考拉拉杆箱","手提包"]
+      },
+      {"name":"服饰内衣",
+        "details":["男装","女装","丝袜","Calvin Klein卡文克莱","睡衣/家居服套装","内衣"]
+      },
+
+      {"name":"女士箱包",
+        "details":["斜挎包","手提包","手拿包","双肩包","化妆包","钱包/卡包","附件包"]
+      },
+      {"name":"鞋" ,
+        "details":["女鞋","男鞋","户外鞋"]
+      }
+
+    ],
+    "imgList":[
+      {"smallImg":["301.jpg","302.jpg","303.jpg","304.jpg","305.jpg","306.jpg","307.jpg","308.jpg","309.jpg"], "bigImg":"313.jpg"}
+    ]
+  },
+  {"tabLiTitle":"家居个护",
+    "targetSrc":"http://www.kaola.com/activity/detail/11667.shtml?zn=top&zp=category-4",
+    "imgSrc":"http://127.0.0.1/My_project/images/index/topTabBox/iqkpow3285_40_40.png",
+    "contain":[
+      {"name":"洗护日用",
+        "details":["洗发水","护发素","发膜","染发剂","护发精油","梳子","沐浴露","沐浴皂","洗手液","牙膏","牙刷","漱口水"]
+      },
+      {"name":"居家用品",
+        "details":["杯子","滤水壶/滤芯","锅具刀具","厨房餐饮","纸巾","衣物清洁","驱虫除臭","家居清洁","收纳整理","创意礼品","宠物生活"]
+      },
+
+      {"name":"宠物生活",
+        "details":["宠物主粮","宠物零食","宠物洗护美容","宠物玩具"]
+      },
+      {"name":"其他个护",
+        "details":["眼罩","口罩","其他个护","避孕套","人体润滑","男用器具","女用器具","情趣玩具"]
+      },
+
+      {"name":"女性护理",
+        "details":["卫生巾","护垫","卫生棉条","私处洗液"]
+      },
+      {"name":"家装家纺" ,
+        "details":["床品套件","枕头","床上用品","毛巾浴巾","浴袍","其他家纺用品"]
+      }
+
+    ],
+    "imgList":[
+      {"smallImg":["401.jpg","402.jpg","403.jpg","404.jpg","405.jpg","406.jpg","407.jpg","408.jpg","409.jpg"],   "bigImg":"413.jpg"}
+    ]
+  },
+  {"tabLiTitle":"营养保健",
+    "targetSrc":"http://www.kaola.com/activity/detail/12026.shtml?zn=top&zp=category-5",
+    "imgSrc":"http://127.0.0.1/My_project/images/index/topTabBox/iqkpq2ue80_40_40.png",
+    "contain":[
+      {"name":"健康养护",
+        "details":["男性功能","美容养颜","调节三高","关节养护","肝肾养护","减肥瘦身","调节免疫","心脑保健","滋补养生","骨骼健康","保护视力","改善睡眠","改善贫血","护发养发"]
+      },
+      {"name":"营养补充",
+        "details":["维生素","鱼油","酵素","蛋白粉","葡萄籽","蔓越莓","叶酸","蜂蜜/蜂胶","铁","钙","蛋白质/氨基酸","大豆异黄酮","大蒜提取物","胶原蛋白","参类","蜂蜜","奶蓟草","月见草","番茄红素","芦荟","卵磷脂","银杏","叶黄/蓝莓","DHA","维骨力"]
+      },
+      {"name":"女性必备",
+        "details":["减肥瘦身","舒缓岁月","胶原蛋白","内分泌","酵素","补气养血"]
+      },
+      {"name":"关爱老年",
+        "details":["滋补养生","心脑保健","调节三高","调节免疫","肝肾养护","骨骼关节"]
+      },
+      {"name":"男性必备",
+        "details":["护肝","补钙","增肌","肾、腺","玛卡"]
+      },
+      {"name":"国际汇" ,
+        "details":["澳新","韩国","德国","日本","美国"]
+      }
+
+    ],
+    "imgList":[
+      {"smallImg":["501.jpg","502.jpg","503.jpg","504.jpg","505.jpg","506.jpg","507.jpg","508.jpg","509.jpg"],  "bigImg":"513.jpg"}
+    ]
+  },
+  {"tabLiTitle":"海外直邮",
+    "targetSrc":" http://www.kaola.com/activity/detail/12116.shtml?zn=top&zp=category-6",
+    "imgSrc":"http://127.0.0.1/My_project/images/index/topTabBox/iqkpr75617_40_40.png",
+    "contain":[
+      {"name":"日用家居",
+        "details":["PHILIPS飞利浦","电动牙刷","剃须刀","智能扫地机器人","料理机","家居用品","戴森","宠物用品"]
+      },
+      {"name":"服饰鞋包",
+        "details":["Daniel Wellington","Calvin Klein","Zippo打火机","Pandora潘多拉","CITIZEN西铁城","YSL","运动鞋","服装"]
+      },
+      {"name":"母婴专区",
+        "details":["婴儿奶粉","美德乐吸奶器","宝宝用品","玩具总动员","小黄人玩具"]
+      },
+      {"name":"电子生活",
+        "details":["beats by dr.dre","SENNHEISER森海塞尔","鼠标","音箱","耳麦","影视娱乐"]
+      },
+      {"name":"美食蛋白" ,
+        "details":["蛋白粉","减肥瘦身","其他保健","进口零食","卡乐比","酒水饮料"]
+      },
+      {"name":"彩妆美容",
+        "details":["春雨","水光面膜","FOREO洁面仪","护肤","面部清洁"]
+      }
+
+    ],
+    "imgList":[
+      {"smallImg":["601.jpg","602.jpg","603.jpg","604.jpg","605.jpg","606.jpg","607.jpg","608.jpg","609.jpg"], "bigImg":"611.jpg"}
+    ]
+  },
+  {"tabLiTitle":"数码家电",
+    "targetSrc":"html/listPage.html",
+    "imgSrc":"http://127.0.0.1/My_project/images/index/topTabBox/iqkpsh0e98_40_40.png",
+    "contain":[
+      {"name":"数码影音",
+        "details":["数码相机","耳机/耳麦","音箱/音响","单反相机","微单","拍立得","平板/游戏机","智能穿戴","其他配件"]
+      },
+      {"name":"生活电器",
+        "details":["取暖器","净化器/氧吧","扫地机器人","除尘器/除螨","加湿器","挂烫机/电熨斗","除湿机","毛球修剪器","电风扇","其他生活电器"]
+      },
+      {"name":"厨房电器",
+        "details":["汉美驰","电水壶/热水壶","咖啡机/咖啡壶","原汁机/榨汁机","电饭煲","搅拌/料理机"]
+      },
+      {"name":"个护健康",
+        "details":["电吹风/风筒","电动牙刷","剃须刀","卷/直发器","剃/脱毛器","鼻毛修剪器","按摩梳/理发器","其他个护电器"]
+      },
+
+      {"name":"手机/配件",
+        "details":["苹果","华为","三星","数据线","手机壳","手机贴膜"]
+      },
+      {"name":"孕妈必备" ,
+        "details":["营养","洗护","待产新生","穿戴","塑身"]
+      }
+
+    ],
+    "imgList":[
+      {"smallImg":["701.jpg","702.jpg","703.jpg","704.jpg","705.jpg","706.jpg","707.jpg","708.jpg","709.jpg"],  "bigImg":"713.jpg"}
+    ]
+  },
+  {"tabLiTitle":"环球美食",
+    "targetSrc":"http://www.kaola.com/activity/detail/11884.shtml?zn=top&zp=category-8",
+    "imgSrc":"http://127.0.0.1/My_project/images/index/topTabBox/iqkptd2291_40_40.png",
+    "contain":[
+      {"name":"人气热门",
+        "details":["德运","丸太拉面","UCC咖啡","轩尼诗","成人奶粉","可乐","早餐麦片","歌帝梵","卡乐比","巴黎水"]
+      },
+      {"name":"乳品/咖啡/麦片/冲饮",
+        "details":["成人奶粉","奶片","进口牛奶","酸奶","其他乳品","麦片","五谷冲饮","热可可","其他冲饮","速溶咖啡","咖啡粉","咖啡豆","胶囊咖啡","咖啡伴侣"]
+      },
+      {"name":"茶/酒/饮料",
+        "details":["葡萄酒","洋酒","白酒","啤酒","黄酒","品质水饮","饮料","碳酸饮料","果蔬汁","花草茶","茶饮"]
+      },
+      {"name":"粮油副食",
+        "details":["调味品/料酒","果酱/酱料","食用油/橄榄油","泡面","方便速食","罐头","方便菜","米面杂粮","南北干货"]
+      },
+      {"name":"休闲零食",
+        "details":["坚果","蜜饯果干","糖果巧克力","薯片/膨化","海产品","果冻布丁","肉脯干","其他零食"]
+      },
+      {"name":"饼干糕点" ,
+        "details":["饼干","糕点","点心","莱家威化","中秋月饼"]
+      }
+
+    ],
+    "imgList":[
+      {"smallImg":["801.jpg","802.jpg","803.jpg","804.jpg","805.jpg","806.jpg","807.jpg","808.jpg","809.jpg"], "bigImg":"813.jpg"}
+    ]
+  },
+  {"tabLiTitle":"户外运动",
+    "targetSrc":" http://www.kaola.com/activity/detail/14748.shtml?zn=top&zp=category-9",
+    "imgSrc":"http://127.0.0.1/My_project/images/index/topTabBox/iqsu18g169_40_40.png",
+    "contain":[
+      {"name":"运动鞋",
+        "details":["跑步鞋","休闲鞋","篮球鞋","NIKE","阿迪达斯","ASICS","美津浓","圣康尼","SKORA","Under Armour"]
+      },
+
+      {"name":"户外鞋靴",
+        "details":["登山鞋","徒步鞋","溯溪鞋","越野跑鞋","LOWA","CRISPI","Beastard"]
+      },
+      {"name":"运动服装",
+        "details":["运动T恤","运动卫衣","更多商品","NIKE","阿迪达斯"]
+      },
+      {"name":"户外服装",
+        "details":["速干T恤","卫衣衬衣","皮肤风衣","冲锋衣裤","户外裤","功能内衣","帽子/皮带","土拔鼠","巴塔","棉服"]
+      },
+      {"name":"户外装备",
+        "details":["头巾","腰包","登山包","休闲包","水壶","打火机","军刀","维氏","Osprey","格里高利","露营装备"]
+      },
+      {"name":"更多分类" ,
+        "details":["汽车机油","壳牌","嘉实多","智能穿戴","速尔跑步机"]
+      }
+
+    ],
+    "imgList":[
+      {"smallImg":["901.jpg","902.jpg","903.jpg","904.jpg","905.jpg","906.jpg","907.jpg","908.jpg","909.jpg"],  "bigImg":"910.jpg"}
+    ]
+  },
+  {"tabLiTitle":"水果生鲜",
+    "targetSrc":" http://www.kaola.com/activity/detail/14929.shtml?zn=top&zp=category-10",
+    "imgSrc":"http://127.0.0.1/My_project/images/index/topTabBox/ir26dxt121_40_40.png",
+    "contain":[
+
+      {"name":"肉品禽蛋",
+        "details":["牛肉","牛排佳","其他肉类","鸡肉产品","鸡蛋","猪肉/腊肠/火腿","驴肉","火锅食材"]
+      },
+      {"name":"新鲜水果",
+        "details":["火龙果","奇异果","车厘子","榴莲","柠檬","牛油果","苹果","橙子","木瓜","葡萄","其他水果","柚子","枣","梨","石榴","山竹","龙眼"]
+      },
+      {"name":"水产品海鲜",
+        "details":["鱼类/三文鱼","虾类","大闸蟹","其他水产","海参","贝类","螃蟹","海鲜礼盒","鱼类制品","乌贼","大闸蟹礼券"]
+      },
+      {"name":"冷冻食品",
+        "details":["冷冻食品","冷冻面点","海鲜制品","奶制品","水饺","蛋糕面包","冰激凌","其他冷冻零食"]
+      },
+      {"name":"蔬菜食材",
+        "details":["蔬菜"]
+      }
+    ],
+    "imgList":[
+      {"smallImg":["1001.jpg","1002.jpg","1003.jpg","1004.jpg","1005.jpg","1006.jpg","1007.jpg"], "bigImg":"1008.jpg"}
+    ]
+  }
+]
+
+
+
+
+
+
+
+
+

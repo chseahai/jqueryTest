@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test_goto</title>
+</head>
+<body>
+    <div class="go">
+        <ul>
+            <li pid="1001"><a href="javascript:void(0)">恩佐1</a></li>
+            <li pid="1002"><a href="javascript:void(0)">恩佐2</a></li>
+            <li pid="1003"><a href="javascript:void(0)">恩佐3</a></li>
+            <li pid="1004"><a href="javascript:void(0)">恩佐4</a></li>
+            <li pid="1005"><a href="javascript:void(0)">恩佐5</a></li>
+            <li pid="1006"><a href="javascript:void(0)">恩佐6</a></li>
+        </ul>
+    </div>
+    <script src="../library/jquery-1.11.0.js"></script>
+    <script>
+        $("ul li").on("click",function () {
+           var pid=$(this).attr("pid");
+           location.href="data.php?pid=" + pid;
+        })
+    </script>
+</body>
+</html>

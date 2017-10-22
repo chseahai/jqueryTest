@@ -1,0 +1,710 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,dt,dd,fieldset,p,span,strong,ol,label,form,img,em{
+    margin:0;
+    padding: 0;
+}
+body,html{
+    width:100%;
+    height:100%;
+    background: #f6f6f6;
+}
+a{
+    font-size:12px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 176017 */
+    src: url('//at.alicdn.com/t/font_rnsgq2qzwb1sv2t9.eot');
+    src: url('//at.alicdn.com/t/font_rnsgq2qzwb1sv2t9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_rnsgq2qzwb1sv2t9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_rnsgq2qzwb1sv2t9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_rnsgq2qzwb1sv2t9.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.listPage-top{
+    width:1008px;
+    height:128px;
+    margin:0 auto;
+    position: relative;
+}
+.listPage-top a{
+    display: block;
+    width:250px;
+    height:128px;
+    border:1px solid black;
+    border-right:none;
+    float:left;
+}
+.listPage-top a img{
+    border:none;
+    height:100%;
+    width:100%;
+}
+.listPage-top .office{
+    border-right: 1px solid black;
+}
+
+/*-------capacity---智能就在身边-------*/
+.capacity{
+    width: 1008px;
+    margin:0 auto;
+    height:416px;
+}
+.capacity .title{
+    width: 1008px;
+    height: 80px;
+    background: url(../images/listPage/top/top.jpg) no-repeat -457px -159px;
+}
+.capacity .cap-list a{
+    float:left;
+    display: block;
+    height:330px;
+    width:330px;
+    margin-right:6px;
+}
+.capacity .cap-list .News{
+    background: url("../images/listPage/top/top.jpg")no-repeat -457px -240px;
+}
+.capacity .cap-list .Hots{
+    background: url("../images/listPage/top/top.jpg")no-repeat -794px -240px;
+}
+.capacity .cap-list .Clears{
+    background: url("../images/listPage/top/top.jpg")no-repeat -1130px -240px;
+}
+
+/*------全局初始化图片--------*/
+.hot-major .title img{
+    width:100%;
+    height:100%;
+}
+/*-----------热门大牌----------*/
+.hot-major{
+    width:1008px;
+    position: relative;
+    margin:0 auto;
+    overflow: hidden;
+}
+.hot-major .title{
+    width: 1008px;
+    height: 80px;
+}
+.hot-major .oList .oli{
+    position: relative;
+    float:left;
+    width:168px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+}
+.hot-major .oList .oli em{
+    font-style: inherit;
+    color:#333;
+    display: block;
+    height: 44px;
+    font-size: 14px;
+    line-height: 44px;
+    width: 77px;
+    margin:0 auto;
+    border-bottom: 2px solid #fff;
+}
+.hot-major .oList .oli .active{
+    border-bottom: 2px solid #F82D28;
+    color:#F82D28;
+    font-weight: bolder;
+}
+.hot-major .oList .oli i{
+    position: absolute;
+    top: 15px;
+    left: 164px;
+    height: 14px;
+    width: 2px;
+    background: #d3d3d3;
+}
+.hot-major .oList .oli .line.last{
+   display: none;
+}
+.navList .ListBox {
+    height:auto;
+}
+.navList .ListBox .detailsList{
+    position: relative;
+    z-index: 101;
+    height:350px;
+    width:244px;
+    overflow: hidden;
+    margin:4px;
+    float:left;
+}
+.navList .ListBox .detailsList .ListMain{
+    display: block;
+}
+/*-------------通用样式--------------*/
+.ListMain .bigImg{
+    height:244px;
+    width:244px;
+    display: block;   /*解决三像素bug*/
+}
+/*-------------通用样式--------------*/
+.navList .ListBox .detailsList .ListMain .moveBox {
+    display: block;
+    position: relative;
+    z-index: 102;
+    top: 0;
+    width: 244px;
+    height: 152px;
+    color: #333;
+    background: navajowhite;
+}
+.navList .ListBox .detailsList .ListMain .moveBox .smallImg{
+    display: block;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 80px;
+    z-index: 101;
+    border: 1px solid #eee
+}
+.navList .ListBox .detailsList .ListMain .moveBox .name{
+    padding: 42px 0 10px 23px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
+.navList .ListBox .detailsList .ListMain .moveBox .desc{
+    display: block;
+    width: 163px;
+    height: 20px;
+    margin-left: 42px;
+    font-size: 13px;
+    overflow: hidden;
+    text-align: center;
+    color: #d22147;
+}
+.navList .ListBox .detailsList .ListMain .moveBox .go-brand{
+    display: block;
+    margin: 16px auto;
+    width: 124px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+    -moz-border-radius: 14px;   /*border-redius兼容性*/
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+    background-color: #d22147;
+    color: #fff;
+}
+/*-----------溢出隐藏-------------*/
+.detailsList .name,.detailsList .desc{
+    display: block;
+    overflow: hidden;
+    width:200px;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+
+/*----------------------生活家电------------------------*/
+
+.lifeHousehold{
+    width:1008px;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.lifeHousehold .lifeTitle{
+    width: 1008px;
+    height: 80px;
+}
+.lifeHousehold .lifeTitle img{
+    width:100%;
+    /*width:1008px;*/
+    height:100%;
+}
+.lifeHousehold .lifeList .lifeLi{
+    position: relative;
+    float:left;
+    width:168px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+}
+.lifeHousehold .lifeList .lifeLi em{
+    font-style: inherit;
+    color:#333;
+    display: block;
+    height: 44px;
+    font-size: 14px;
+    line-height: 44px;
+    width: 90px;
+    margin:0 auto;
+    border-bottom: 2px solid #fff;
+}
+.lifeHousehold .lifeList .lifeLi .active{
+    border-bottom: 2px solid #F82D28;
+    color:#F82D28;
+    font-weight: bolder;
+}
+.lifeHousehold .lifeList .lifeLi .line{
+    position: absolute;
+    top: 15px;
+    left: 164px;
+    height: 14px;
+    width: 2px;
+    background: #d3d3d3;
+}
+.lifeHousehold .lifeList .lifeLi .last{
+    display: none;
+}
+
+/*-----------------公共样式-------------------*/
+.details{
+    position: relative;
+    z-index: 101;
+    height:350px;
+    width:244px;
+    /*overflow: hidden;*/
+    margin:4px;
+    float:left;
+}
+ .details .listMain{
+    display: block;
+    position: relative;
+}
+.details .ListMain .bigImg{
+    height:244px;
+    width:244px;
+    display: block;   /*解决三像素bug*/
+}
+ .details .ListMain .smallImg{
+    position: absolute;
+    top:6px;
+    left:6px;
+    z-index: 101;
+     height:36px;
+     width:36px;
+     display: block;
+     border-radius: 18px;
+}
+ .details .ListMain .evaluate{
+    position: absolute;
+    top: 188px;
+    left: 0;
+    width: 244px;
+    background: #000;
+    opacity: 0.60;
+    color:#fff;
+     display: none;
+}
+ .details .ListMain .evaluate .good,.star,.discuss{
+    margin-right: 12px;
+    display: block;
+    height:30px;
+    float:left;
+    line-height:30px;
+    text-align: center;
+}
+.evaluate .good{
+    margin-left:20px;
+}
+.evaluate .star{
+    width:74px;
+    margin:0 auto;
+}
+.evaluate  .discuss{
+    margin-left:16px;
+}
+.evaluate .mar{
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 207px;
+    margin-left: 20px;
+    height: 24px;
+}
+.evaluate .mar .dis-main{
+    position: absolute;
+    left:0;
+    top:3px;
+    text-align: initial;
+    white-space: nowrap;
+    display: inline-block;
+}
+.ListMain .desc{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    font-weight: bold;
+    color:#333;
+    height:30px;
+    line-height:30px;
+    text-indent: 20px;
+}
+.ListMain .desc:hover{
+    text-decoration: underline;
+}
+.ListMain .introduce{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    color:#333;
+    text-indent: 20px;
+}
+.ListMain .introduce:hover{
+    text-decoration: underline;
+}
+.ListMain .buy-now{
+    position: absolute;
+    display: block;
+    padding: 0 6px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    bottom: 16px;
+    right: 18px;
+    background: #d22147;
+    color: #fff;
+    font-weight: bold;
+    /* word-spacing: 4px; */
+}
+.details .price{
+    margin-top: 20px;
+}
+.price .show{
+    margin: 0 6px 0 20px;
+    color: #d22147;
+    font-weight: bold;
+    font-size: 18px;
+}
+.price .show i{
+    font-size:12px;
+    font-weight: normal;
+}
+.price .del{
+    font-weight: normal;
+    color: #999;
+    font-size: 12px;
+}
+
+
+/*-----------------公共样式-------------------*/
+
+/*---------------------------厨房电器-----------------------*/
+.kitchen{
+    width:1008px;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.kitchen .kitTitle{
+    width: 1008px;
+    height: 80px;
+}
+.kitchen .kitTitle img{
+    width:100%;
+    /*width:1008px;*/
+    height:100%;
+}
+.kitchen .kitList .kitLi{
+    position: relative;
+    float: left;
+    width: 126px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+}
+.kitchen .kitList .kitLi em{
+    font-style: inherit;
+    color:#333;
+    display: block;
+    height: 44px;
+    font-size: 14px;
+    line-height: 44px;
+    width: 90px;
+    margin:0 auto;
+    border-bottom: 2px solid #fff;
+}
+.kitchen .kitList .kitLi .active{
+    border-bottom: 2px solid #F82D28;
+    color:#F82D28;
+    font-weight: bolder;
+}
+.kitchen .kitList .kitLi .line{
+    position: absolute;
+    top: 15px;
+    left: 164px;
+    height: 14px;
+    width: 2px;
+    background: #d3d3d3;
+}
+.kitchen .kitList .kitLi .last{
+    display: none;
+}
+.kitchen .discount{
+    position: absolute;
+    top:0;
+    right: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height:23px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: #FDA438;
+}
+
+/*---------------------------手机数码-----------------------*/
+.phone-numerical{
+    width:1008px;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.phone-numerical .phoneTitle{
+    width: 1008px;
+    height: 80px;
+}
+.phone-numerical .phoneTitle img{
+    width:1008px;
+    /*width:1008px;*/
+    height:100%;
+}
+.phone-numerical .phoneList .phoneLi{
+    position: relative;
+    float: left;
+    width: 201px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+}
+.phone-numerical .phoneList .phoneLi em{
+    font-style: inherit;
+    color:#333;
+    display: block;
+    height: 44px;
+    font-size: 14px;
+    line-height: 44px;
+    width: 90px;
+    margin:0 auto;
+    border-bottom: 2px solid #fff;
+}
+.phone-numerical .phoneList .phoneLi .active{
+    border-bottom: 2px solid #F82D28;
+    color:#F82D28;
+    font-weight: bolder;
+}
+.phone-numerical .phoneList .phoneLi .line{
+    position: absolute;
+    top: 15px;
+    left: 199px;
+    height: 14px;
+    width: 2px;
+    background: #d3d3d3;
+}
+.phone-numerical .phoneList .phoneLi .last{
+    display: none;
+}
+.phone-numerical .discount{
+    position: absolute;
+    top:0;
+    right: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height:23px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: #FDA438;
+}
+
+
+/*---------------------------美体美仪-----------------------*/
+.beauty{
+    width:1008px;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.beauty .beautyTitle{
+    width: 1008px;
+    height: 80px;
+}
+.beauty .beautyTitle img{
+    width:1008px;
+    /*width:1008px;*/
+    height:100%;
+}
+.beauty .beautyList .beautyLi{
+    position: relative;
+    float: left;
+    width: 144px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer
+}
+.beauty .beautyList .beautyLi em{
+    font-style: inherit;
+    color:#333;
+    display: block;
+    height: 44px;
+    font-size: 14px;
+    line-height: 44px;
+    width: 90px;
+    margin:0 auto;
+    border-bottom: 2px solid #fff;
+}
+.beauty .beautyList .beautyLi .active{
+    border-bottom: 2px solid #F82D28;
+    color:#F82D28;
+    font-weight: bolder;
+}
+.beauty .beautyList .beautyLi .line{
+    position: absolute;
+    top: 15px;
+    left: 139px;
+    height: 14px;
+    width: 2px;
+    background: #d3d3d3;
+}
+.beauty .beautyList .beautyLi .last{
+    display: none;
+}
+.beauty .discount{
+    position: absolute;
+    top:0;
+    right: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height:23px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: #FDA438;
+}
+
+
+/*---------------------------办公用品-----------------------*/
+.office-tool{
+    width:1008px;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.office-tool .officeTitle{
+    width: 1008px;
+    height: 80px;
+}
+.office-tool .officeTitle img{
+    width:1008px;
+    /*width:1008px;*/
+    height:100%;
+}
+.office-tool .officeList .officeLi{
+    position: relative;
+    float: left;
+    width: 50%;
+    text-align: center;
+    background: #fff;
+    cursor: pointer
+}
+.office-tool .officeList .officeLi em{
+    font-style: inherit;
+    color:#333;
+    display: block;
+    height: 44px;
+    font-size: 14px;
+    line-height: 44px;
+    width: 90px;
+    margin:0 auto;
+    border-bottom: 2px solid #fff;
+}
+.office-tool .officeList .officeLi .active{
+    border-bottom: 2px solid #F82D28;
+    color:#F82D28;
+    font-weight: bolder;
+}
+.office-tool .officeList .officeLi .line{
+    position: absolute;
+    top: 15px;
+    left: 501px;
+    height: 14px;
+    width: 2px;
+    background: #d3d3d3;
+}
+.office-tool .officeList .officeLi .last{
+    display: none;
+}
+.office-tool .discount{
+    position: absolute;
+    top:0;
+    right: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height:23px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: #FDA438;
+}
+
+/*---------------------------右侧固定栏-----------------------*/
+.fixedRight{
+    position: fixed;
+    right:6px;
+    top:100px;
+    width:100px;
+    z-index: 1011;
+    display: none;
+}
+.fixedRight .list-controls li{
+    height:30px;
+    width:100%;
+    line-height:30px;
+    text-align: center;
+    border-bottom: 1px solid #c4c4c4;
+    font-size: 14px;
+    background: #fff;
+    cursor: pointer;
+}
+.fixedRight .list-controls li:hover{
+    background: #c4c4c4;
+}
+.fixedRight .list-controls .list-cart{
+    height:40px;
+    background: #c4c4c4;
+    line-height: 40px;
+    font-size: 14px;
+}
+.fixedRight .list-controls .list-cart .iconfont{
+    color:#0a0a0a;
+    font-size: 23px;
+}
+.fixedRight .list-controls .list-top{
+    height: 40px;
+    line-height: 56px;
+    font-size: 20px;
+    position: relative;
+}
+.fixedRight .list-controls .list-top .iconfont{
+    position: absolute;
+    top: -15px;
+    left: 43px;
+    color: #0a0a0a;
+}

@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网易考拉海购 数码家电频道</title>
+    <link rel="stylesheet" href="../css/listPage.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+<div id="wrap">
+    <div id="header">
+
+    </div>
+
+    <!-------------------------listPage顶部导购----------------->
+    <div class="listPage-top">
+        <a href="javascript:void(0)" class="phone"><img src="../images/listPage/top/phone.jpg" alt=""></a>
+        <a href="javascript:void(0)" class="life"><img src="../images/listPage/top/life.jpg" alt=""></a>
+        <a href="javascript:void(0)" class="guard"><img src="../images/listPage/top/guard.jpg" alt=""></a>
+        <a href="javascript:void(0)" class="office"><img src="../images/listPage/top/office.jpg" alt=""></a>
+    </div>
+
+    <!--------------------------智能就在身边-------------------->
+    <div class="capacity">
+        <h3 class="title"></h3>
+        <div class="cap-list">
+            <a href="javascript:void(0)" class="News"></a>
+            <a href="javascript:void(0)" class="Hots"></a>
+            <a href="javascript:void(0)" class="Clears"></a>
+        </div>
+    </div>
+
+    <!---------------------------热门大牌----------------------->
+    <div class="hot-major">
+        <h3 class="title"><img src="../images/listPage/stairsTitle/hot_major.jpg" alt=""></h3>
+        <div class="hotNav">
+            <ul class="oList">
+                <li class="oli">
+                    <em class="active">生活家电</em>
+                    <i class="line"></i>
+                </li>
+                <li class="oli">
+                    <em>厨房电器</em>
+                    <i class="line"></i>
+                </li>
+                <li class="oli">
+                    <em>手机数码</em>
+                    <i class="line"></i>
+                </li>
+                <li class="oli">
+                    <em>美体仪容</em>
+                    <i class="line"></i>
+                </li>
+                <li class="oli">
+                    <em>办公用品</em>
+                    <i class="line"></i>
+                </li>
+                <li class="oli">
+                    <em>充值中心</em>
+                    <i class="line last"></i>
+                </li>
+            </ul>
+        </div>
+        <!------导航详情盒子-------->
+        <div class="navList">
+            <ul class="ListBox">
+                <script id="showList" type="text/html">
+                    {{each List as contain i}}
+                    <li class="detailsList">
+                        <a href="javascript:void(0)" class="ListMain">
+                            <img src="{{contain.BigImgSrc}}" alt="" class="bigImg">
+                            <div class="moveBox">
+                                <img src="{{contain.smallImgSrc}}" alt="" class="smallImg">
+                                <p class="name">{{contain.name}}</p>
+                                <span class="desc">{{contain.desc}}</span>
+                                <span class="go-brand">{{contain.goBrand}}</span>
+                            </div>
+                        </a>
+                    </li>
+                    {{/each}}
+                </script>
+            </ul>
+        </div>
+    </div>
+
+    <!---------------------------生活家电----------------------->
+    <div class="lifeHousehold">
+        <h3 class="lifeTitle"><img src="../images/listPage/stairsTitle/life_household.jpg" alt=""></h3>
+        <div class="lifeNav">
+            <ul class="lifeList">
+                <li class="lifeLi">
+                    <em class="active">空气净化器</em>
+                    <i class="line"></i>
+                </li>
+                <li class="lifeLi">
+                    <em>扫地机器人</em>
+                    <i class="line"></i>
+                </li>
+                <li class="lifeLi">
+                    <em>加湿器</em>
+                    <i class="line"></i>
+                </li>
+                <li class="lifeLi">
+                    <em>吸尘器</em>
+                    <i class="line"></i>
+                </li>
+                <li class="lifeLi">
+                    <em>电风扇</em>
+                    <i class="line"></i>
+                </li>
+                <li class="lifeLi">
+                    <em>其他生活电器</em>
+                    <i class="line last"></i>
+                </li>
+            </ul>
+        </div>
+        <!------导航详情盒子-------->
+        <div class="navList">
+            <ul class="lifeBox">
+                <script id="lifeShow" type="text/html">
+                    {{each List as contain i}}
+                    <li class="details">
+                        <a href="javascript:void(0)" class="ListMain">
+                            <img src="{{contain.bigImgSrc}}" alt="" class="bigImg">
+                            <img src="{{contain.smallImgSrc}}" alt="" class="smallImg">
+                            <div class="evaluate">
+                                <span class="good">{{contain.good}}</span>
+                                <span class="star">
+                                <i class="iconfont">{{contain.iconfont}}</i>
+                            </span>
+                                <span class="discuss">{{contain.discuss}}</span>
+                                <div  class="mar">
+                                    <span  class="dis-main"> {{contain.mar}}</span>
+                                </div>
+                            </div>
+                            <span class="desc">{{contain.desc}}</span>
+                            <p class="introduce">{{contain.introduce}}</p>
+                            <span class="buy-now">{{contain.buyNow}}</span>
+                        </a>
+                        <div class="price">
+                            <strong class="show"><i class="icon">{{contain.icon}}</i>{{contain.show}}</strong>
+                            <del class="del"><i class="icon">{{contain.icon}}</i>{{contain.del}}</del>
+                        </div>
+                    </li>
+                    {{/each}}
+                </script>
+            </ul>
+        </div>
+    </div>
+
+    <!---------------------------厨房电器----------------------->
+    <div class="kitchen">
+        <h3 class="kitTitle"><img src="../images/listPage/stairsTitle/kitchen_electric.jpg" alt=""></h3>
+        <div class="kitNav">
+            <ul class="kitList">
+                <li class="kitLi">
+                    <em class="active">电热水壶</em>
+                    <i class="line"></i>
+                </li>
+                <li class="kitLi">
+                    <em>电饭煲</em>
+                    <i class="line"></i>
+                </li>
+                <li class="kitLi">
+                    <em>原汁机</em>
+                    <i class="line"></i>
+                </li>
+                <li class="kitLi">
+                    <em>咖啡机</em>
+                    <i class="line"></i>
+                </li>
+                <li class="kitLi">
+                    <em>搅拌/料理机</em>
+                    <i class="line"></i>
+                </li>
+                <li class="kitLi">
+                    <em>面包机</em>
+                    <i class="line"></i>
+                </li>
+                <li class="kitLi">
+                    <em>豆浆机</em>
+                    <i class="line"></i>
+                </li>
+                <li class="kitLi">
+                    <em>其他厨房家具</em>
+                    <i class="line"></i>
+                </li>
+            </ul>
+        </div>
+        <!------导航详情盒子-------->
+        <div class="navList">
+            <ul class="kitBox">
+                <script id="showKit" type="text/html">
+                    {{each List as contain i}}
+                    <li class="details">
+                        <a href="javascript:void(0)" class="ListMain">
+                            <img src="{{contain.bigImgSrc}}" alt="" class="bigImg">
+                            <img src="{{contain.smallImgSrc}}" alt="" class="smallImg">
+                            <span class="discount">
+                            <!--假设里边有的话就加入模板  不然就不添加-->
+                              {{contain.discount1}}<br/>
+                            {{contain.discount2}}
+                        </span>
+                            <div class="evaluate">
+                                <span class="good">{{contain.good}}</span>
+                                <span class="star">
+                <i class="iconfont">{{contain.iconfont}}</i>
+                </span>
+                                <span class="discuss">{{contain.discuss}}</span>
+                                <div  class="mar">
+                                    <span  class="dis-main"> {{contain.mar}}</span>
+                                </div>
+                            </div>
+                            <span class="desc">  {{contain.desc}}</span>
+                            <p class="introduce">{{contain.introduce}}</p>
+                            <span class="buy-now">{{contain.buyNow}}</span>
+                        </a>
+                        <div class="price">
+                            <strong class="show"><i class="icon">{{contain.icon}}</i>{{contain.show}}</strong>
+                            <del class="del"><i class="icon">{{contain.icon}}</i>{{contain.del}}</del>
+                        </div>
+                    </li>
+
+                    {{/each}}
+
+
+                </script>
+                <!--<li class="details">-->
+                <!--<a href="javascript:void(0)" class="ListMain">-->
+                <!--<img src="../images/listPage/Kitchen/bread1.jpg" alt="" class="bigImg">-->
+                <!--<img src="../images/listPage/country/China.png" alt="" class="smallImg">-->
+                <!--<span class="discount">-->
+                <!--&lt;!&ndash;假设里边有的话就加入模板  不然就不添加&ndash;&gt;-->
+                <!--698元<br/>-->
+                <!--选两件-->
+                <!--</span>-->
+                <!--<div class="evaluate">-->
+                <!--<span class="good">92.8% 好评</span>-->
+                <!--<span class="star">-->
+                <!--<i class="iconfont">&#xe661;&#xe661;&#xe661;&#xe661;&#xe661;</i>-->
+                <!--</span>-->
+                <!--<span class="discuss">26条评论</span>-->
+                <!--<marquee behavior=" alternate" direction="left" scrollamount="3" class="mar">-->
+                <!--o***7：声音不算大，安装简单。外观造型也精致干净。满意！       o***7：声音不算大，安装简单。外观造型也精致干净。满意！-->
+                <!--</marquee>-->
+                <!--</div>-->
+                <!--<span class="desc">SHARP 夏普 智能静音空气净化器家用 KC-BB30-W</span>-->
+                <!--<p class="introduce">还你健康呼吸环境</p>-->
+                <!--<span class="buy-now">立即购买</span>-->
+                <!--</a>-->
+                <!--<div class="price">-->
+                <!--<strong class="show"><i class="icon">￥</i>2988</strong>-->
+                <!--<del class="del"><i class="icon">￥</i>3199</del>-->
+                <!--</div>-->
+                <!--</li>-->
+            </ul>
+        </div>
+    </div>
+
+    <!---------------------------手机数码----------------------->
+    <div class="phone-numerical">
+        <h3 class="phoneTitle"><img src="../images/listPage/stairsTitle/phone_numerical.jpg" alt=""></h3>
+        <div class="PhoneNav">
+            <ul class="phoneList">
+                <li class="phoneLi">
+                    <em class="active">手机/配件</em>
+                    <i class="line"></i>
+                </li>
+                <li class="phoneLi">
+                    <em>相机/配件</em>
+                    <i class="line"></i>
+                </li>
+                <li class="phoneLi">
+                    <em>平板/配件</em>
+                    <i class="line"></i>
+                </li>
+                <li class="phoneLi">
+                    <em>影音娱乐</em>
+                    <i class="line"></i>
+                </li>
+                <li class="phoneLi">
+                    <em>智能设备</em>
+                    <i class="line last"></i>
+                </li>
+            </ul>
+        </div>
+        <!------导航详情盒子-------->
+        <div class="navList">
+            <ul class="PhoneBox">
+                <script id="showPhone" type="text/html">
+                    {{each List as contain i}}
+                    <li class="details" pid="{{contain.pid}}">
+                        <a href="javascript:void(0)" class="ListMain">
+                            <img src="{{contain.bigImgSrc}}" alt="" class="bigImg">
+                            <img src="{{contain.smallImgSrc}}" alt="" class="smallImg">
+                            <span class="discount">
+                            <!--假设里边有的话就加入模板  不然就不添加-->
+                              {{contain.discount1}}<br/>
+                            {{contain.discount2}}
+                        </span>
+                            <div class="evaluate">
+                                <span class="good">{{contain.good}}</span>
+                                <span class="star">
+                <i class="iconfont">{{contain.iconfont}}</i>
+                </span>
+                                <span class="discuss">{{contain.discuss}}</span>
+                                <div  class="mar">
+                                    <span  class="dis-main"> {{contain.mar}}</span>
+                                </div>
+                            </div>
+                            <span class="desc">  {{contain.desc}}</span>
+                            <p class="introduce">{{contain.introduce}}</p>
+                            <span class="buy-now">{{contain.buyNow}}</span>
+                        </a>
+                        <div class="price">
+                            <strong class="show"><i class="icon">{{contain.icon}}</i>{{contain.show}}</strong>
+                            <del class="del"><i class="icon">{{contain.icon}}</i>{{contain.del}}</del>
+                        </div>
+                    </li>
+
+                    {{/each}}
+                </script>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <!---------------------------美体美仪----------------------->
+    <div class="beauty">
+        <h3 class="beautyTitle"><img src="../images/listPage/stairsTitle/beauty.jpg" alt=""></h3>
+        <div class="beautyNav">
+            <ul class="beautyList">
+                <li class="beautyLi">
+                    <em class="active">剃须刀</em>
+                    <i class="line"></i>
+                </li>
+                <li class="beautyLi">
+                    <em>口腔护理</em>
+                    <i class="line"></i>
+                </li>
+                <li class="beautyLi">
+                    <em>电吹风</em>
+                    <i class="line"></i>
+                </li>
+                <li class="beautyLi">
+                    <em>美容仪器</em>
+                    <i class="line"></i>
+                </li>
+                <li class="beautyLi">
+                    <em>剃/脱毛器</em>
+                    <i class="line"></i>
+                </li>
+                <li class="beautyLi">
+                    <em>美发器</em>
+                    <i class="line"></i>
+                </li>
+                <li class="beautyLi">
+                    <em>其他个护电器</em>
+                    <i class="line last"></i>
+                </li>
+            </ul>
+        </div>
+        <!------导航详情盒子-------->
+        <div class="navList">
+            <ul class="beautyBox">
+                <script id="showBeauty" type="text/html">
+                    {{each List as contain i}}
+                    <li class="details">
+                        <a href="javascript:void(0)" class="ListMain">
+                            <img src="{{contain.bigImgSrc}}" alt="" class="bigImg">
+                            <img src="{{contain.smallImgSrc}}" alt="" class="smallImg">
+                            <span class="discount">
+                            <!--假设里边有的话就加入模板  不然就不添加-->
+                              {{contain.discount1}}<br/>
+                            {{contain.discount2}}
+                        </span>
+                            <div class="evaluate">
+                                <span class="good">{{contain.good}}</span>
+                                <span class="star">
+                <i class="iconfont">{{contain.iconfont}}</i>
+                </span>
+                                <span class="discuss">{{contain.discuss}}</span>
+                                <div  class="mar">
+                                    <span  class="dis-main"> {{contain.mar}}</span>
+                                </div>
+                            </div>
+                            <span class="desc">  {{contain.desc}}</span>
+                            <p class="introduce">{{contain.introduce}}</p>
+                            <span class="buy-now">{{contain.buyNow}}</span>
+                        </a>
+                        <div class="price">
+                            <strong class="show"><i class="icon">{{contain.icon}}</i>{{contain.show}}</strong>
+                            <del class="del"><i class="icon">{{contain.icon}}</i>{{contain.del}}</del>
+                        </div>
+                    </li>
+
+                    {{/each}}
+
+
+                </script>
+                <!--<li class="details">-->
+                <!--<a href="javascript:void(0)" class="ListMain">-->
+                <!--<img src="../images/listPage/Kitchen/bread1.jpg" alt="" class="bigImg">-->
+                <!--<img src="../images/listPage/country/China.png" alt="" class="smallImg">-->
+                <!--<span class="discount">-->
+                <!--&lt;!&ndash;假设里边有的话就加入模板  不然就不添加&ndash;&gt;-->
+                <!--698元<br/>-->
+                <!--选两件-->
+                <!--</span>-->
+                <!--<div class="evaluate">-->
+                <!--<span class="good">92.8% 好评</span>-->
+                <!--<span class="star">-->
+                <!--<i class="iconfont">&#xe661;&#xe661;&#xe661;&#xe661;&#xe661;</i>-->
+                <!--</span>-->
+                <!--<span class="discuss">26条评论</span>-->
+                <!--<marquee behavior=" alternate" direction="left" scrollamount="3" class="mar">-->
+                <!--o***7：声音不算大，安装简单。外观造型也精致干净。满意！       o***7：声音不算大，安装简单。外观造型也精致干净。满意！-->
+                <!--</marquee>-->
+                <!--</div>-->
+                <!--<span class="desc">SHARP 夏普 智能静音空气净化器家用 KC-BB30-W</span>-->
+                <!--<p class="introduce">还你健康呼吸环境</p>-->
+                <!--<span class="buy-now">立即购买</span>-->
+                <!--</a>-->
+                <!--<div class="price">-->
+                <!--<strong class="show"><i class="icon">￥</i>2988</strong>-->
+                <!--<del class="del"><i class="icon">￥</i>3199</del>-->
+                <!--</div>-->
+                <!--</li>-->
+            </ul>
+        </div>
+    </div>
+
+    <!---------------------------办公用品----------------------->
+    <div class="office-tool">
+        <h3 class="officeTitle"><img src="../images/listPage/stairsTitle/office.jpg" alt=""></h3>
+        <div class="officeNav">
+            <ul class="officeList">
+                <li class="officeLi">
+                    <em class="active">文具耗材</em>
+                    <i class="line"></i>
+                </li>
+                <li class="officeLi">
+                    <em>办公设备</em>
+                    <i class="line last"></i>
+                </li>
+            </ul>
+        </div>
+        <!------导航详情盒子-------->
+        <div class="navList">
+            <ul class="officeBox">
+                <script id="showOffice" type="text/html">
+                    {{each List as contain i}}
+                    <li class="details">
+                        <a href="javascript:void(0)" class="ListMain">
+                            <img src="{{contain.bigImgSrc}}" alt="" class="bigImg">
+                            <img src="{{contain.smallImgSrc}}" alt="" class="smallImg">
+                            <span class="discount">
+                            <!--假设里边有的话就加入模板  不然就不添加-->
+                              {{contain.discount1}}<br/>
+                            {{contain.discount2}}
+                        </span>
+                            <div class="evaluate">
+                                <span class="good">{{contain.good}}</span>
+                                <span class="star">
+                <i class="iconfont">{{contain.iconfont}}</i>
+                </span>
+                                <span class="discuss">{{contain.discuss}}</span>
+                                <div  class="mar">
+                                    <span  class="dis-main"> {{contain.mar}}</span>
+                                </div>
+                            </div>
+                            <span class="desc">  {{contain.desc}}</span>
+                            <p class="introduce">{{contain.introduce}}</p>
+                            <span class="buy-now">{{contain.buyNow}}</span>
+                        </a>
+                        <div class="price">
+                            <strong class="show"><i class="icon">{{contain.icon}}</i>{{contain.show}}</strong>
+                            <del class="del"><i class="icon">{{contain.icon}}</i>{{contain.del}}</del>
+                        </div>
+                    </li>
+
+                    {{/each}}
+
+
+                </script>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--------------------------右边固定栏----------------------->
+        <div class="fixedRight">
+            <ul class="list-controls">
+                <li class="list-cart ">
+                    <i class="iconfont">&#xe856;</i>
+                    购物车
+                </li>
+                <li class="list-life">生活家电</li>
+                <li class="list-kitchen">厨房电器</li>
+                <li class="list-phone">手机数码</li>
+                <li class="list-beauty">美体仪器</li>
+                <li class="list-office">办公用品</li>
+                <li class="list-top">
+                    <i class="iconfont">&#xe857;</i>
+                    Top
+                </li>
+            </ul>
+        </div>
+
+    <div id="footer">
+
+    </div>
+</div>
+<script src="../library/jquery-1.9.1.min.js"></script>
+<script>
+    $("#header").load("header.php",function () {
+        var headerjs=$("<script>");
+        headerjs.attr("src","../js/header.js");
+        $(document.body).append(headerjs)
+    });
+    $("#footer").load("footer.html",function () {
+        var footerjs=$("<script>");
+        footerjs.attr("src","../js/footer.js");
+        $(document.body).append(footerjs)
+    });
+</script>
+<script src="../library/template.js"></script>
+<script src="../js/listPage.js"></script>
+<script>
+
+</script>
+</body>
+</html>

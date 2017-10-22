@@ -1,0 +1,876 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,dt,dd,fieldset,p,span,strong,ol,label,form,img,em{
+    margin:0;
+    padding: 0;
+}
+body,html{
+    width:100%;
+    height:100%;
+}
+a{
+    font-size:12px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/*--------阿里图标---------*/
+@font-face {
+    font-family: 'iconfont';  /* project id 176017 */
+    src: url('//at.alicdn.com/t/font_xer8t9tytejc3di.eot');
+    src: url('//at.alicdn.com/t/font_xer8t9tytejc3di.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_xer8t9tytejc3di.woff') format('woff'),
+    url('//at.alicdn.com/t/font_xer8t9tytejc3di.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_xer8t9tytejc3di.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: red;
+}
+
+/*------版心  全局居中----*/
+#shopCart-wrap{
+    margin:0 auto;
+    width:100%;
+    overflow: hidden;
+}
+.year-top{
+    position: relative;
+    margin: 0 auto;
+    width:1200px;
+}
+.year-top img{
+    position: relative;
+    display: block;
+    left:-24%;
+}
+/*---------topWrap顶部导航栏----------------*/
+#topWrap{
+    position: relative;
+    z-index: 106;
+    background: #f2f2f2;
+    border-bottom: 1px solid #ededee;
+    color: #666;
+}
+.topNav{
+    position: relative;
+    zoom: 1;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    width: 1090px;
+    background: #f2f2f2;
+}
+.topNav a{
+    color: #666;
+    font-size:12px;
+}
+.topNav a:hover{
+    color: #ff3872;
+}
+/*---------topNavLeft----------------*/
+.topNav .topNavLeft{
+    width:350px;
+    height:30px;
+    float:left;
+}
+.topNav .topNavLeft .topNavLeft-welcome{
+    font-size:12px;
+    line-height:33px;
+}
+.topNav .topNavLeft li{
+    float:left;
+    padding: 0 6px 0 6px;
+    line-height:30px;
+}
+.topNav .topNavLeft .topNavLeft-iconfont{
+    font-size: 12px;
+}
+
+.topNav .topNavLeft .topNavLeft-phone .app{
+    position: absolute;
+    left: 188px;
+    top: 40px;
+    display: none;
+    background: #fff;
+    padding: 4px 0;
+    font-size: 12px;
+    color: #E31436;
+    line-height: 18px;
+    font-weight: normal;
+    text-align: center;
+    border: solid 1px #ededee;
+}
+.app .iconfont{
+    position: absolute;
+    top:-12px;
+    left:42%;
+    color:#eee;
+}
+/*---------topNavRight----------------*/
+.topNav .topNavRight{
+    float: right;
+    position: relative;
+    right: -3px;
+    top:0;
+}
+.topNav .topNavRight li{
+    float:left;
+    padding-top: 12px;
+    position: relative;
+    height:20px;
+}
+.topNav .topNavRight .topNavRight-day a{
+    border:none;
+}
+.topNav .topNavRight li a{
+    height:14px;
+    display: block;
+    padding: 0 16px 0 16px;
+    border-left:1px solid #666;
+    line-height:14px;
+
+}
+.topNav .topNavRight-day .iconfont{
+    font-size:10px;
+    position: absolute;
+    top:2px;
+    left:-6px;
+}
+.topNavRight li+li .iconfont{
+    color:#333;
+    position: absolute;
+    top:6px;
+    right:0;
+}
+.topNavRight .client-List{
+    position: absolute;
+    left: -1px;
+    top: 30px;
+    _width: 60px;
+    border-top: 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12);
+    padding: 4px 6px 12px 2px;
+    display: none;
+    background: #fff;
+}
+.topNavRight .client-List a{
+    display: block;
+    word-wrap: normal;
+    white-space: nowrap;
+    height: 28px;
+    line-height: 28px;
+    cursor: pointer;
+}
+.topNavRight .client-List li a{
+    width:88px;
+    height:24px;
+    display: block;
+    border-left:none;
+}
+.topNavRight .client-List .line a{
+    border-bottom: 1px solid #eeeeee;
+}
+.topNavRight .client-List{
+    position: absolute;
+    left: -1px;
+    top: 30px;
+    _width: 60px;
+    border-top: 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12);
+    padding: 4px 6px 12px 2px;
+}
+.topNavRight-client .client-List li a{
+    width:48px;
+    height:24px;
+    display: inline;
+    border-left:none;
+    line-height:24px;
+    text-align: right;
+    margin-left:16px;
+}
+.topNavRight-buy .client-List li a{
+    width:48px;
+    height:24px;
+    display: block;
+    border-left:none;
+    line-height:24px;
+}
+.topNavRight-client .client-List .iconfont{
+    position: absolute;
+    left:6px;
+    top:10px;
+    width:16px;
+    height:16px;
+}
+.topNavRight-more .client-List{
+    position: absolute;
+    left: -20px;
+    top: 30px;
+    _width: 60px;
+    border-top: 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12);
+    padding: 4px 6px 12px 2px;
+}
+.topNavRight-more .client-List li a{
+    width:48px;
+    height:24px;
+    display: block;
+    border-left:none;
+    line-height:24px;
+    text-align: right;
+}
+.topNavRight-more .collect-Img{
+    background: #fff;
+    position: absolute;
+    right:90px;
+    top:48px;
+    width:100px;
+    height:100px;
+    text-align: center;
+    color: #333;
+    border: solid 1px #ededee;
+    padding: 10px;
+    display: none;
+}
+.topNavRight-more .collect-Img img{
+    position: absolute;
+    left:11px;
+    top:11px;
+}
+.topNavRight-more .collect-Img img.active{
+    z-index: 101;
+}
+.topNavRight-more .move-box{
+    position: absolute;
+    right:-12px;
+    top:18px;
+}
+.topNavRight-more .move-box .iconfont{
+    color:#eee;
+}
+
+
+.logo{
+    position: relative;
+    zoom: 1;
+    width: 1090px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top:20px;
+}
+#shopCart-main{
+    width:1090px;
+    margin:0 auto;
+    margin-bottom: 60px;
+    display: none;
+}
+
+.myCart{
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    line-height: 32px;
+    margin-top: 15px;
+    width:100%;
+}
+.myCart .tip{
+    float: right;
+    color: #666;
+    font-size: 12px;
+}
+.myCart .tip .que{
+    color:#666;
+}
+
+/*----------------购物车顶部-----------------*/
+.head {
+    color: #999;
+    border: 1px solid #eaeaea;
+    height: 34px;
+    line-height: 34px;
+    font-size: 12px;
+}
+.selectAll{
+    width: 17px;
+    height: 18px;
+}
+.col{
+    float:left;
+}
+.col1{
+    width: 114px;
+}
+.col1 .lab{
+    color: #000;
+}
+.col2{
+    width: 396px;
+}
+.col3{
+    width: 132px;
+}
+.col4{
+    width: 120px;
+}
+.col5{
+    width: 100px;
+}
+.col6{
+    width: 110px;
+    padding: 0 7px;
+    text-align: left;
+}
+
+.cart-main{
+    margin-top: 15px;
+    color: #333;
+}
+
+.cart-main .ware{
+    padding: 7px 0 8px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+.ware .cartAll{
+    width: 17px;
+    height: 18px;
+}
+.ware .warename{
+    font-weight: bold;
+    font-size: 14px;
+    color: #666;
+}
+
+.Goods {
+    border: 1px solid #eaeaea;
+}
+.Goods .my-goods{
+}
+
+.my-goods .good-item{
+    border-bottom: 1px solid #eaeaea;
+    display: table;
+    height: 120px;
+}
+.good-item .col{
+    height:120px;
+    margin-top: 20px;
+}
+.good-item .col10{
+    padding-right: 0;
+    width: 37px;
+    position: relative;
+    z-index: 100;
+    height: 120px;
+}
+.col10 .ck-gd{
+    margin-right: 0;
+    position: relative;
+    top: 10px;
+    z-index: 102;
+    width: 17px;
+    height: 17px;
+}
+.col11{
+    width: 425px;
+
+}
+.col11 .img-dec{
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.col11 .txt-wrap{
+    margin-left: 20px;
+    width: 310px;
+    float: left;
+}
+.col11 .txt-wrap .dec{
+    font-size: 14px;
+    color:#333;
+}
+.col11 .txt-wrap .dec:hover{
+    color:#e31436;
+}
+.txt-wrap .property{
+    color: #999;
+    font-size: 12px;
+}
+
+.col12{
+    width: 102px;
+    margin-left: 23px;
+    text-align: center;
+}
+.col12 .del{
+    display: block;
+    width: 55px;
+    text-align: left;
+    color: #999;
+    margin-left: 24px;
+}
+.col12 .newprice{
+    font-weight: bold;
+    font-size: 14px;
+    height: 33px;
+    line-height: 33px;
+    color: #333;
+    display: block;
+    width: 55px;
+    margin: 3px 0 0 30px;
+    text-align: left;
+}
+.col12 .bargain{
+    display: inline-block;
+    zoom: 1;
+    padding: 0 8px;
+    border: 1px solid #e31436;
+    margin: 3px 0 0;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    color: #e31436;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.col13{
+    width: 152px;
+    margin-left: 18px;
+}
+.col13 .oli{
+    width: 110px;
+    height: 23px;
+    margin: 30px auto;
+}
+.col13 .oli li{
+    float:left;
+}
+.col13 .oli .reduce{
+    cursor: not-allowed;
+    color: #bcbcbc;
+   border:1px solid #bcbcbc;
+    border-right: none;
+    height: 25px;
+    width: 23px;
+    line-height: 23px;
+    text-align: center;
+    background: #fff;
+    font-size: 30px;
+}
+.col13 .oli .add{
+    cursor: not-allowed;
+    color: #bcbcbc;
+    border:1px solid #bcbcbc;
+    border-left: none;
+    margin-left:2px;
+    height: 25px;
+    width: 25px;
+    line-height: 23px;
+    text-align: center;
+    background: #fff;
+    font-size: 30px;
+}
+.col13 .oli .num{
+    cursor: not-allowed;
+    color: #bcbcbc;
+    border-color: #bcbcbc;
+    height: 23px;
+    width: 42px;
+    line-height: 23px;
+    text-align: center;
+    background: #fff;
+    font-size: 16px;
+}
+.col13 .oli .num .nuc{
+    width: 40px;
+    outline: none;
+    height: 21px;
+    text-align: center;
+}
+.col13 .residue{
+    width: 150px;
+    font-size: 12px;
+    color: #e31436;
+    margin: -22px 0 0 22px;
+}
+.col14{
+    width: 66px;
+    line-height: 106px;
+}
+.col14 .goodAllSum{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.col15{
+    width: 225px;
+    margin-left: 40px;
+}
+.col15 .del-goods{
+    display: block;
+    color: #666;
+    width: 120px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.col15 .collect{
+    font-size: 14px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.Goods .cartinfo{
+    padding: 10px 43px 10px 20px;
+    text-align: right;
+    white-space: nowrap;
+}
+.Goods .cartinfo em{
+    font-style: normal;
+}
+.Goods .cartinfo .discount,.Goods .cartinfo .all-sum,.Goods .cartinfo .dues{
+    display: inline-block;
+    zoom: 1;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+/*----------------吸底菜单--------------*/
+.totalbox{
+    position: relative;
+    width: 1088px;
+    margin-top:35px;
+    margin-left: 100px;
+    background: greenyellow;
+    height:50px;
+}
+.totalbox .tbar{
+    height: 40px;
+    line-height: 40px;
+    padding: 10px;
+    position: relative;
+    background-color: #F8F8F8;
+}
+.tbar .lt{
+    float: left;
+}
+.lt .setAll{
+    width:17px;
+    height: 17px;
+}
+.lt .opt{
+    cursor: pointer;
+    margin-left: 20px;
+    font-size:12px;
+}
+.tbar .rt{
+    float: right;
+    padding-right: 140px;
+    line-height: 20px;
+    text-align: right;
+}
+.tbar .num{
+    color: #e31436;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: normal;
+}
+.rt .itm{
+    margin-left: 20px;
+}
+
+.rt .all-money{
+    color: #999;
+
+}
+
+.rt .gobuy{
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    bottom: 0;
+    width: 120px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #e31436;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+/*---------------购物车空空如也--------------*/
+.emptyShopCart{
+    width:1090px;
+    height:320px;
+    background: #fff;
+    margin:0 auto;
+    position: relative;
+    display: none;
+}
+.emptyShopCart .h3{
+    width:1090px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    line-height: 32px;
+    margin-top: 15px;
+}
+.emptyShopCart .no-cart{
+    position: relative;
+    font-size: 16px;
+    height: 218px;
+    top:112px;
+    left:300px;
+    background: url("../images/shopCart/cartIcon.jpg") no-repeat 12px 0;
+}
+.no-cart .gogo{
+    height: 30px;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    float: left;
+    line-height: 23px;
+    margin: 20px 20px 0 100px;
+}
+
+.no-cart .toGo{
+    display: block;
+    float: left;
+    height: 30px;
+    font-size: 20px;
+    color: #e72f45;
+    font-weight: bolder;
+    margin: 20px;
+}
+.no-cart .toGo:hover{
+    color: red;
+}
+
+
+
+
+/*-------------猜你喜欢--------------*/
+.think-like{
+    height:420px;
+    width:1106px;
+    margin:0 auto;
+    margin-bottom: 49px;
+}
+.think-like .home-top{
+    position: relative;
+    font-size: 14px;
+    height: 50px;
+}
+.think-like .home-top .desc{
+    height: 40px;
+    line-height: 40px;
+}
+.think-like .home-top .title{
+    font-size: 22px;
+    color: #333;
+    margin-right: 10px;
+    float:left;
+    line-height:36px;
+}
+.think-like .home-top .list .desc{
+    line-height: 20px;
+    font-size: 12px;
+    color: #333;
+    font-weight: normal;
+    word-break: break-all;
+    width: 141px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+}
+.think-like .like-details .list{
+    border: 1px solid #666666;
+    width: 214px;
+    height: 350px;
+    float: left;
+    border-right: none;
+    padding: 0 2px 0 2px;
+}
+.think-like .like-details .list:hover{
+    /*transform:scale(1.1);  !* 放大*!*/
+    /*-ms-transform:scale(1.1);*/
+    /*-o-tranform:scale(1.1);*/
+    /*-webkit-transform:scale(1.1);*/
+    /*-moz-transform:scale(1.1);*/
+    filter:alpha(opacity=80); /* IE */
+    -moz-opacity:0.8; /* 老版Mozilla */
+    -khtml-opacity:0.8; /* 老版Safari */
+    opacity: 0.8; /* 支持opacity的浏览器*/
+}
+.think-like .like-details .list.last{
+    border-right: 1px solid #666666;
+}
+.think-like .like-details .list a img{
+    border:none;
+    width:100%;
+    height:271px;
+}
+.think-like .like-details .list .write{
+    line-height: 20px;
+    font-size: 12px;
+    color: #333;
+    font-weight: normal;
+    word-break: break-all;
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 20px;
+    text-overflow: ellipsis;
+    display: block;
+}
+.think-like .like-details .list .write:hover{
+    text-decoration: underline;
+}
+.write .page{
+    color: #e31436;
+    font-weight: bold;
+    float: left;
+}
+.list .save{
+    color: #e31436;
+    font-size: 12px;
+    text-indent: 20px;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+}
+.list .price{
+    text-indent:20px;
+}
+.symbol{
+    font-size: 14px;
+    font-weight: normal;
+}
+.list .price .show{
+    color: #e30b11;
+    font-size: 20px;
+    font-weight: bold;
+}
+.list .price .del{
+    color:#666;
+}
+.list .price .eva{
+    float:right;
+}
+.list .price .eva a{
+    color:#666;
+}
+.list .price .eva a:hover{
+    text-decoration: underline;
+}
+
+/*---------------遮罩提示--------------*/
+#wrap{
+    background:rgba(100,110,100,0.6);
+    position: fixed;
+    left: 0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index: 999;
+    display: none;
+}
+#wrap.active{
+    display: block;
+}
+.contain{
+    width:518px;
+    height:224px;
+    background:#fff;
+    margin:300px auto;
+    position: relative;
+}
+.contain .title{
+    height:50px;
+    width:100%;
+    border-bottom: 1px dotted #99a5c2;
+    font:bold 16px/50px "微软雅黑";
+    text-indent: 30px;
+    color:#99a5c2;
+}
+.contain .close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: block;
+    text-align: center;
+    line-height: 10px;
+    cursor: pointer;
+}
+.contain .close:hover{
+    color:#e72f45;
+}
+.delIs {
+    position: relative;
+}
+.delIs .main{
+    width:436px;
+    margin:0 auto;
+    height:36px;
+}
+.delIs .main h3{
+    height:80px;
+    width:436px;
+    text-align: center;
+    font-size:23px;
+    line-height: 80px;
+}
+.delIs .main .iconfont{
+    color:red;
+    font-size:23px;
+}
+.delIs .ensure{
+    position: absolute;
+    left:23%;
+    bottom:-70px;
+    list-style: none;
+    min-width: 70px;
+    padding: 0 10px;
+    height: 34px;
+    margin: 0 10px;
+    border: 1px solid #D22147;
+    cursor: pointer;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    background: #D22147;
+    color:#fff;
+}
+.ensure:hover{
+    background: red;
+}
+.delIs .cancel{
+    position: absolute;
+    right:23%;
+    bottom:-70px;
+    list-style: none;
+    min-width: 70px;
+    padding: 0 10px;
+    height: 34px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid #99a5c2;
+    color:#99a5c2;
+}
+.cancel:hover{
+    border: 1px solid #D22147;
+}

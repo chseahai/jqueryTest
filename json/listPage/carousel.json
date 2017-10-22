@@ -1,0 +1,14 @@
+[
+  {
+    "imgSrc":"carousel1.jpg",
+    "targetSrc":"https://www.baidu.com"
+  },
+  {
+    "imgSrc":"carousel2.jpg",
+    "targetSrc":"https://www.baidu.com"
+  },
+  {
+    "imgSrc":"carousel3.jpg",
+    "targetSrc":"https://www.baidu.com"
+  }
+]

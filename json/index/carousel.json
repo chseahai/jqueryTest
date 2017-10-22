@@ -1,0 +1,26 @@
+[
+  {
+    "imgSrc":"carousel01.jpg",
+    "targetSrc":"https://www.baidu.com"
+  },
+  {
+    "imgSrc":"carousel02.jpg",
+    "targetSrc":"https://www.baidu.com"
+  },
+  {
+    "imgSrc":"carousel03.jpg",
+    "targetSrc":"https://www.baidu.com"
+  },
+  {
+    "imgSrc":"carousel04.jpg",
+    "targetSrc":"https://www.baidu.com"
+  },
+  {
+    "imgSrc":"carousel05.jpg",
+    "targetSrc":"https://www.baidu.com"
+  },
+  {
+    "imgSrc":"carousel06.jpg",
+    "targetSrc":"https://www.baidu.com"
+  }
+]

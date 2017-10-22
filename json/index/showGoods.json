@@ -1,0 +1,39 @@
+[{
+  "List":[
+    {
+      "imgSrc":"images/index/showGoods/1.jpg",
+      "title":"美容养颜，对抗衰老",
+      "desc":"2件装 | GNC 健安喜 葡萄籽胶囊",
+      "show":"￥199",
+      "del":"￥338",
+      "due":"剩余126件",
+      "width":"33px"
+    },
+    {
+      "imgSrc":"images/index/showGoods/2.jpg",
+      "title":"辛劳一生，妈妈专享",
+      "desc":"Swisse 50岁以上女士复合维生素片 60片",
+      "show":"￥129",
+      "del":"￥499",
+      "due":"剩余92件",
+      "width":"30px"
+    },
+    {
+      "imgSrc":"images/index/showGoods/3.jpg",
+      "title":"金钻绒儿童内衣 加绒加厚",
+      "desc":"Mn·Mo 瑁恩·瑁爱 儿童冬季金钻绒保暖内衣套装 ",
+      "show":"￥99",
+      "del":"￥185",
+      "due":"剩余100件",
+      "width":"50px"
+    },
+    {
+      "imgSrc":"images/index/showGoods/4.jpg",
+      "title":"来自荷兰纯正奶源",
+      "desc":"4件装 | Hero Baby 荷兰本土婴儿奶粉 4段 700克/盒 4盒装",
+      "show":"￥306",
+      "del":"￥590",
+      "due":"剩余86件",
+      "width":"23px"
+    }]
+}]
